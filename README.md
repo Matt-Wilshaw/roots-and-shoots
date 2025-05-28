@@ -5,7 +5,7 @@
 
 ## Key Outline 
 
-Designed using Jesse James Garrett’s *Five Planes of User Experience*, the site integrates thoughtful content structure, friendly design, and intuitive interaction — all reinforced with a calming and contemporary visual style using **Montserrat**, **Poppins**, **Open Sans**, and **Lato** fonts and colours that are in keeping with the overall theme of the website.
+Designed using Jesse James Garrett’s *Five Planes of User Experience*, the site integrates thoughtful content structure, friendly design, and intuitive interaction — all reinforced with a calming and contemporary visual style using **Lato** fonts and colours that are in keeping with the overall theme of the website.
 
 ## Table of Contents
 - [Roots and Shoots – Garden Website 🪴](#roots-and-shoots--garden-website-)
@@ -89,10 +89,18 @@ Designed using Jesse James Garrett’s *Five Planes of User Experience*, the sit
 - Flatpickr calendar for selecting dates to plant or check in
 
 **Typography:**
-- **Montserrat**: Headings for a friendly, bold style.
-- **Poppins**: UI elements and section titles.
-- **Open Sans**: Main content for readability.
-- **Lato**: For quotes, callouts, and sidebar content.
+
+While your primary font can be eye-catching and unique, your secondary font should be, first and foremost, highly legible.
+
+**Primary Font: Nunito**
+- Use for: Headings, buttons, navigation
+
+**Primary Font: Lora**
+-Use for: Paragraphs, guides, educational text
+
+
+
+
 
 ---
 ## Surface
