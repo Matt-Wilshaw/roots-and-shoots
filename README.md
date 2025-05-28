@@ -93,14 +93,12 @@ Designed using Jesse James Garrett’s *Five Planes of User Experience*, the sit
 While your primary font can be eye-catching and unique, your secondary font should be, first and foremost, highly legible.
 
 **Primary Font: Nunito**
-- Use for: Headings, buttons, navigation
+- Use for: Headings, buttons, navigation.
+- fallback, sans-serif.
 
 **Primary Font: Lora**
--Use for: Paragraphs, guides, educational text
-
-
-
-
+-Use for: Paragraphs, guides, educational text.
+- fallback, serif.
 
 ---
 ## Surface
@@ -180,6 +178,9 @@ Mobile-optimised carousels for browsing featured gardens.
 
 **Balsamiq**
 - Wireframe design
+
+[Picsart](https://tools.picsart.com/color/palette-generator/)
+- Colour palette hex generator
 
 # Credits
 
