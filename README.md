@@ -148,27 +148,30 @@ Mobile-optimised carousels for browsing featured gardens.
 
 ## Software Used
 
-**Microsoft Windows**
-- (11 Home edition(ver 10.0.26100))
+**Microsoft Windows (11 Home edition(ver 10.0.26100))**
+- Operation system. 
 
 **vsCode (and extensions)**
-- Live Server
-- Markdown All in One
+- Live Server.
+- Markdown All in One.
 
-**Chrome**
-- (Version 131.0.6778.265 (Official Build) (64-bit))
+**Google Chrome (Version 131.0.6778.265)**
+- Web browser.
 
-**Git**
-- (Version 2.49.)
+**Git (Version 2.49.)**
+- Track changes, manage repository.
+
+**GIMP (version 3.0)**
+- Photo editing software.
 
 **Wave**
-- Google Chrome extension - Accessibility Evaluation tool
+- Google Chrome extension - Accessibility Evaluation tool.
 
 [WebAim](https://webaim.org/)
 - Contrast Checker for the website
 
 **Snipping Tool on Windows**
-- Snipping inmages out to use in  this project
+- Snipping inmages out to use in this project.
 
 [W3C](https://validator.w3.org/)
 - HTML validation
@@ -190,10 +193,10 @@ Mobile-optimised carousels for browsing featured gardens.
 - For use with the DatePicker on the site.
 
 [Font Awesome](https://fontawesome.com/)
-- Icons that are used for the website
+- Icons that are used for the website.
 
 [BootStrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-- Defined Libraries 
+- Defined Libraries.
 
 ## Text
 
@@ -202,7 +205,7 @@ Mobile-optimised carousels for browsing featured gardens.
 ## Media
 
 **Google Maps**
-- Interactive Map
+- Interactive Map.
 
 ## Images
 
