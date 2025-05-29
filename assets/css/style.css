@@ -17,30 +17,7 @@
 
 }
 
-/* Navigation styling */
-nav { 
-    /* Linear-gradient, Defines a gradient top to bottom */
-    background: linear-gradient(to bottom, #bcf1ff, white);
 
-    /* Bottom soft shadow for asthetics seprating nav from body */
-    /* 0 Horizontal offset (0 = shadow is centered horizontally accross the vavBar) */
-    /* 2px → Vertical offset (2px below the element) */
-    /* 10px → Blur radius to softens the shadow edges) */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
-  
-}
-
-.nav.link {
-
-      font-weight: 700;
-}
-
-/* Gives the active page on the nav an underline */
-
-.navbar-nav .nav-link.active {
-    text-decoration: underline;
-    color: var(--primary-color);
-}
 
 /* Circle that take up 50% with a white colour gradually going to background colour*/
 
@@ -66,6 +43,8 @@ h3 {
     border: 2px solid var(--highlight-color);
     background-color: var(--highlight-color);
     color: white;
+    
+    margin-left: 10px;
 }
 
 .custom-button-filled:hover {
@@ -74,9 +53,36 @@ h3 {
     color: white;
 }
 
-.nav-item {
-  margin-left: 1.2rem;
+/* Navigation styling */
+nav { 
+    /* Linear-gradient, Defines a gradient top to bottom */
+    background: linear-gradient(to bottom, #bcf1ff, white);
+
+    /* Bottom soft shadow for asthetics seprating nav from body */
+    /* 0 Horizontal offset (0 = shadow is centered horizontally accross the vavBar) */
+    /* 2px → Vertical offset (2px below the element) */
+    /* 10px → Blur radius to softens the shadow edges) */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+  
 }
+
+
+
+   
+
+
+/* Gives the active page on the nav an underline */
+
+.navbar-nav .nav-link.active {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+.navbar-nav .nav-link {
+  font-size: 1.25rem; 
+  font-weight: 600;   
+}
+
+
 .container {
     padding-right: 15px;
 }
