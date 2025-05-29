@@ -29,6 +29,8 @@ nav {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
 }
 
+
+
 /* Gives the active page on the nav an underline */
 
 .navbar-nav .nav-link.active {
@@ -67,3 +69,20 @@ h3 {
     background-color: var(--secondary-color);
     color: white;
 }
+
+.nav-item {
+  margin-left: 1.2rem;
+}
+.container {
+    padding-right: 15px;
+}
+
+
+/*Media quries for greater control at different resolutions */
+
+@media (min-width: 768px) {
+
+   
+}
+
+
