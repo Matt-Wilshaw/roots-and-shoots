@@ -42,3 +42,9 @@ and progressive web app (PWA) practices, and generates a report with suggestions
 As a first time user I need easy navigation of the website
 
 As a visualy impaired person I need to be able to use a screen reader
+
+
+
+
+
+**BootStrap testing**

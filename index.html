@@ -16,17 +16,61 @@
     <meta name="author" content="Matthew Wilshaw" />
     <!-- Page Title -->
     <title>Roots and Shoots</title>
-<!-- Bootstrap CSS Link -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!-- Bootstrap CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 
     <!-- Custom stylesheet -->
     <link rel="stylesheet" href="/assets/css/style.css">
 
 
 </head>
+<!-- Display Flex, direction to column layout that fills the full viewport height. 
+Footer stays at the bottom even if content is short, min 100% vertical height. -->
 
-<body>
-    <h1>Hello</h1>
+<body class="d-flex flex-column min-vh-100"></body>
+
+<!-- Navigation -->
+<nav id="navbar" class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/images/Roots-and-Shoots-logo.png" alt="Roots-and-Shoots logo" class="logo">
+        </a>
+        <!-- Collapsable button that turns into a clickable burger menu on smaller screen sizes -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#plants">Plants</a>
+                </li>
+ <li class="nav-item">
+                    <a class="nav-link" href="#events">Events</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Header with carousel -->
+    <header id="header" class="container section">
+        <div class="row">
+    </div>
+    </header>
+
+
 
 
 
@@ -41,10 +85,10 @@
 
 <!-- Bootstrap JS script -->
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
 
 </body>
 
 </html>
-
-

@@ -213,6 +213,7 @@ Mobile-optimised carousels for browsing featured gardens.
 - [pixabay](https://pixabay.com/)
 - [Pexels](https://www.pexels.com/)
 - [StockVault](https://www.stockvault.net/)
+- [Canva](https://www.canva.com/)
 
 ## Knowledge Base
 

@@ -3,17 +3,18 @@
 
 /* CSS Variables */
 :root {
-    --primary-font: "Nunito", sans-serif;
+    --primary-font: "Nunito", sans-serif; /*Heading, logos, navigation*/
     --secondary-font: "Lora", serif;
-    --primary-color: ##3B993A; /* Apple Green */
+    --primary-color: ##3B993A; /* Apple Green - Heading, logos, navigation*/
     --secondary-color: #88BA81; /* Olive Green */
     --highlight-color: #43878A; /* Faded Jade */
     --highlight-color-light: #7a9fc2; /*Light Blue*/
    
 }
 body {
-
-    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-family: var(--primary-font); 
+    
 }
 
 
