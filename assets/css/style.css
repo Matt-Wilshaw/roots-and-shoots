@@ -27,9 +27,13 @@ nav {
     /* 2px → Vertical offset (2px below the element) */
     /* 10px → Blur radius to softens the shadow edges) */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+  
 }
 
+.nav.link {
 
+      font-weight: 700;
+}
 
 /* Gives the active page on the nav an underline */
 
