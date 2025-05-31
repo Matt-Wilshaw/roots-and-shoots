@@ -6,10 +6,12 @@
     --primary-font: "Nunito", sans-serif;
     /*Heading, logos, navigation*/
     --secondary-font: "Lora", serif;
+   
     --primary-color: #3B993A;
     /* Apple Green - Heading, logos, navigation*/
     --secondary-color: #88BA81;
     /* Olive Green */
+  
     --highlight-color: #43878A;
     /* Faded Jade */
     --highlight-color-light: #7a9fc2;
@@ -32,6 +34,9 @@ h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+p {
     color: var(--primary-color);
 }
 
@@ -80,6 +85,21 @@ nav {
 
 .container {
     padding-right: 15px;
+}
+
+/* Footer Styling */
+
+.fa-instagram {
+    color: var(--primary-color);
+}
+.fa-square-facebook {
+    color: var(--primary-color);
+}
+.fa-x-twitter {
+    color: var(--primary-color);
+}
+.fa-paper-plane {
+    color: var(--primary-color);
 }
 
 
