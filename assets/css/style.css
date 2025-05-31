@@ -35,6 +35,7 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    font-weight: 0.5rem;
 }
 p {
     color: var(--primary-color);
@@ -100,6 +101,23 @@ nav {
 }
 .fa-paper-plane {
     color: var(--primary-color);
+}
+
+footer {
+  background-color: #f8f9fa; /* Light background */
+  color: var(--primary-color);
+  border-top: 1px solid #ccc;
+}
+
+footer h5, footer h4 {
+  font-family: var(--secondary-font);
+}
+
+footer .social-links i {
+  transition: transform 0.2s ease;
+}
+footer .social-links i:hover {
+  transform: scale(1.2);
 }
 
 
