@@ -90,16 +90,11 @@ nav {
 
 /* Footer Styling */
 
-.fa-instagram {
-    color: var(--primary-color);
-}
-.fa-square-facebook {
-    color: var(--primary-color);
-}
-.fa-x-twitter {
-    color: var(--primary-color);
-}
-.fa-paper-plane {
+.fa-instagram, 
+.fa-square-facebook,
+.fa-x-twitter,
+.fa-paper-plane
+{
     color: var(--primary-color);
 }
 
