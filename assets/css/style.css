@@ -37,11 +37,15 @@ h3 {
     color: var(--primary-color);
     font-weight: 0.5rem;
 }
-p {
+
+
+.custom-paragraph {
+
     color: var(--primary-color);
+
+    font-weight: 500; 
+
 }
-
-
 
 /* Buttons */
 
