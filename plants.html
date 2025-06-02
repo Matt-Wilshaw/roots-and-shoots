@@ -79,7 +79,33 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
     </nav>
 
     <header>
-        Plants page
+       <div class="container py-5 text-center">
+            <!-- <h2 class="display-6 fw-bold py-5">The Gallery</h2> -->
+            <h1 class="display-3 mt-4 mb-4 py-3 text-center ">Plant Care</h1>
+            <p class="lead display-7 mb-5 custom-paragraph text-center">The Roots and Shoots home for plant care and advice.</p>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-veg-tab" data-bs-toggle="tab" data-bs-target="#nav-veg"
+                    type="button" role="tab" aria-controls="nav-veg" aria-selected="true">Veg</button>
+                <button class="nav-link" id="nav-fruit-tab" data-bs-toggle="tab" data-bs-target="#nav-fruit"
+                    type="button" role="tab" aria-controls="nav-fruit" aria-selected="false">Fruit</button>
+                <button class="nav-link" id="nav-house-tab" data-bs-toggle="tab" data-bs-target="#nav-house"
+                    type="button" role="tab" aria-controls="nav-house" aria-selected="false">House Plants</button>
+                <button class="nav-link" id="nav-flowers-tab" data-bs-toggle="tab" data-bs-target="#nav-flowers"
+                    type="button" role="tab" aria-controls="nav-flowers" aria-selected="false">Flowers</button>
+                    
+            </div>
+        </div>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-veg" role="tabpanel" aria-labelledby="nav-veg-tab"
+                tabindex="0">Veg</div>
+            <div class="tab-pane fade" id="nav-fruit" role="tabpanel" aria-labelledby="nav-fruit-tab" tabindex="0">
+                Fruit
+            </div>
+            <div class="tab-pane fade" id="nav-house" role="tabpanel" aria-labelledby="nav-house-tab" tabindex="0">
+                House plants</div>
+            <div class="tab-pane fade" id="nav-flowers" role="tabpanel" aria-labelledby="nav-flowers-tab" tabindex="0">
+                Flowers</div>
+        </div>
 
     </header>
 
