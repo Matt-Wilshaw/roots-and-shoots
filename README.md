@@ -196,7 +196,10 @@ Mobile-optimised carousels for browsing featured gardens.
 - Icons that are used for the website.
 
 [BootStrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-- Defined Libraries.
+- Defined Libraries for a responsive site.
+
+[Lightbox](https://trvswgnr.github.io/bs5-lightbox/#installation)
+- Gallery viewer
 
 ## Text
 
