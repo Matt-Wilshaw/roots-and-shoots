@@ -110,6 +110,13 @@ h3 {
   color: white;
 }
 
+.custom-button-card {
+
+  border: 2px solid;
+  background-color: purple;
+  color: white;
+}
+
 /* Navigation styling */
 nav {
   /* Linear-gradient, Defines a gradient top to bottom */
