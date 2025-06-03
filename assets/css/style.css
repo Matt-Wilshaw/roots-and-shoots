@@ -3,19 +3,19 @@
 
 /* CSS Variables */
 :root {
-    --primary-font: "Nunito", sans-serif;
-    /*Heading, logos, navigation*/
-    --secondary-font: "Lora", serif;
-   
-    --primary-color: #3B993A;
-    /* Apple Green - Heading, logos, navigation*/
-    --secondary-color: #88BA81;
-    /* Olive Green */
-  
-    --highlight-color: #43878A;
-    /* Faded Jade */
-    --highlight-color-light: #7a9fc2;
-    /*Light Blue*/
+  --primary-font: "Nunito", sans-serif;
+  /*Heading, logos, navigation*/
+  --secondary-font: "Lora", serif;
+
+  --primary-color: #3B993A;
+  /* Apple Green - Heading, logos, navigation*/
+  --secondary-color: #88BA81;
+  /* Olive Green */
+
+  --highlight-color: #43878A;
+  /* Faded Jade */
+  --highlight-color-light: #7a9fc2;
+  /*Light Blue*/
 
 }
 
@@ -26,28 +26,36 @@ html {
 
 /* Circle that take up 50% with a white colour gradually going to background colour*/
 body {
-    /* color: var(--primary-color); */
-    font-family: var(--primary-font);
-    background: radial-gradient(circle, white 50%, #dbffe0 100%);
+  /* color: var(--primary-color); */
+  font-family: var(--primary-font);
+  background: radial-gradient(circle, white 50%, #dbffe0 100%);
 }
 
 h1,
 h2,
 h3 {
-    font-family: var(--secondary-font);
-    color: var(--primary-color);
-    font-weight: 0.5rem;
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+  font-weight: 0.5rem;
 }
 
 #header {
-    margin-top: 4%;
+  margin-top: 4%;
 }
 
 /* Plant information cards style */
 
+/* Styling for the card footer */
+.card-footer {
+  font-weight: bold;
+  color: var(--highlight-color);
+  background-color: transparent;
+  
+}
+
 /* Stretched to fill the full height of its container and to be responsive(flex)*/
 .card {
-  /* height: 100%; */
+  height: 100%;
   display: flex;
   /* Aligns all its child elements image and .card-body in a column. */
   flex-direction: column;
@@ -55,84 +63,95 @@ h3 {
 
 /* .card-body to take up as much vertical space as available inside the .card */
 .card-body {
-  /* flex-grow: 1; */
+  flex-grow: 1;
+ 
 }
+
+.card-text {
+
+  min-height: 100px;
+}
+
+
 
 /* Styling for the main paragraph on index.html */
 
 .custom-paragraph {
-    
-    padding-right: 2%;
-    color: black;
-    font-weight: 500; 
+
+  padding-right: 2%;
+  color: black;
+  font-weight: 500;
 
 }
 
 /* Buttons */
 .custom-button-filled {
-    border: 2px solid var(--highlight-color);
-    background-color: var(--highlight-color);
-    color: white;
-    
-    margin-left: 10px;
+  border: 2px solid var(--highlight-color);
+  background-color: var(--highlight-color);
+  color: white;
+
+  margin-left: 10px;
 }
 
 .custom-button-filled:hover {
-    border: 2px solid var(--secondary-color);
-    background-color: var(--secondary-color);
-    color: white;
+  border: 2px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: white;
 }
 
 /* Navigation styling */
-nav { 
-    /* Linear-gradient, Defines a gradient top to bottom */
-    background: linear-gradient(to bottom, #bcf1ff, white);
+nav {
+  /* Linear-gradient, Defines a gradient top to bottom */
+  background: linear-gradient(to bottom, #bcf1ff, white);
 
-    /* Bottom soft shadow for asthetics seprating nav from body */
-    /* 0 Horizontal offset (0 = shadow is centered horizontally accross the vavBar) */
-    /* 2px → Vertical offset (2px below the element) */
-    /* 10px → Blur radius to softens the shadow edges) */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
-  
+  /* Bottom soft shadow for asthetics seprating nav from body */
+  /* 0 Horizontal offset (0 = shadow is centered horizontally accross the vavBar) */
+  /* 2px → Vertical offset (2px below the element) */
+  /* 10px → Blur radius to softens the shadow edges) */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+
 }
 
 /* Gives the active page on the nav an underline */
 .navbar-nav .nav-link.active {
-    text-decoration: underline;
-    color: var(--primary-color);
+  text-decoration: underline;
+  color: var(--primary-color);
 }
+
 .navbar-nav .nav-link {
-  font-size: 1.25rem; 
-  font-weight: 600;   
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
 
 .container {
-    padding-right: 15px;
+  padding-right: 15px;
 }
 
 /* Footer Styling */
-.fa-instagram, 
+.fa-instagram,
 .fa-square-facebook,
 .fa-x-twitter,
-.fa-paper-plane
-{
-    color: var(--primary-color);
+.fa-paper-plane {
+  color: var(--primary-color);
 }
 
 footer {
-  background-color: #f8f9fa; /* Light background */
+  background-color: #f8f9fa;
+  /* Light background */
   color: var(--primary-color);
   border-top: 1px solid #ccc;
 }
 
-footer h5, footer h4 {
+footer h5,
+footer h4 {
   font-family: var(--secondary-font);
 }
 
 footer .social-links i {
   transition: transform 0.2s ease;
 }
+
 footer .social-links i:hover {
   transform: scale(1.2);
 }
@@ -143,7 +162,19 @@ footer .social-links i:hover {
 /*Media quries for greater control at different resolutions */
 @media (min-width: 768px) {
 
-   
+    /* Make all service cards the same height for consistency */
+     #services .card-body { 
+        min-height: 190px; 
+    }
+
 }
 
+/*Media quries for greater control at different resolutions */
+@media (min-width: 768px) {
 
+    /* Make all service cards the same height for consistency */
+     #services .card-body { 
+        min-height: 190px; 
+    }
+
+}
