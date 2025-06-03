@@ -78,10 +78,42 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
         </div>
     </nav>
 
-    <header>
-        Subscribe page
+    
+     <main>
+        <!-- Subscription form section -->
+        <section id="subscription-form" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                     <!-- <h2 class="display-6 fw-bold py-5">The Gallery</h2> -->
+            <h1 class="display-3 mt-4 mb-4 py-3 text-center ">Subscription</h1>
+            <p class="lead display-7 mb-5 custom-paragraph text-center">Sign up for our monthly newsletter.</p>
+                    <form action="success.html" method="GET">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                                 <div class="col-12 mb-3">
+                                <label for="address" class="form-label">Address</label>
+                                <input class="form-control" id="address" name="address" required>
+                            </div>
+                        
 
-    </header>
+                        <button type="submit" class="btn custom-button-outline mb-4">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+   
 
 
 
