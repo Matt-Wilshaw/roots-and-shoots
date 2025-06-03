@@ -205,6 +205,7 @@ Mobile-optimised carousels for browsing featured gardens.
 
 - [Google](https://fonts.google.com/)
 
+
 ## Media
 
 **Google Maps**
@@ -223,7 +224,8 @@ Mobile-optimised carousels for browsing featured gardens.
 - Code Institute, slides and videos.
 - [stackoverflow](https://stackoverflow.com/)
 - [YouTube](https://youtube.com/)
-
+- [Wikipedia](https://en.wikipedia.org/)
+- [Gardeners-World](https://www.gardenersworld.com/)
 ---
 
 ## Deployement

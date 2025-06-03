@@ -45,6 +45,15 @@ h3 {
 
 /* Plant information cards style */
 
+/* Tab text styles */
+
+.nav-tabs .nav-link {
+  color: black !important;
+}
+.nav-tabs .nav-link.active {
+  text-decoration: underline;
+}
+
 /* Styling for the card footer */
 .card-footer {
   font-weight: bold;
