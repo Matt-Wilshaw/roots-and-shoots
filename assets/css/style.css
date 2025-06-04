@@ -110,8 +110,15 @@ h3 {
   color: white;
 }
 
-.custom-button-card {
+/* Styling for the Subcription page to keep secondary colour on when active */
+.custom-button-filled.active-page {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+}
 
+/* Styled button with werbsite theme with edges and curser pointer */
+.custom-button-card {
   display: inline-flex;
   align-items: center;
   justify-content: center;
