@@ -31,6 +31,7 @@ body {
   background: radial-gradient(circle, white 50%, #dbffe0 100%);
 }
 
+/* Heading styling and colour */
 h1,
 h2,
 h3 {
@@ -46,7 +47,6 @@ h3 {
 /* Plant information cards style */
 
 /* Tab text styles */
-
 .nav-tabs .nav-link {
   color: black !important;
 }
@@ -59,7 +59,6 @@ h3 {
   font-weight: bold;
   color: var(--highlight-color);
   background-color: transparent;
-  
 }
 
 /* Stretched to fill the full height of its container and to be responsive(flex)*/
@@ -70,29 +69,20 @@ h3 {
   flex-direction: column;
 }
 
-
-
 /* .card-body to take up as much vertical space as available inside the .card */
 .card-body {
   flex-grow: 1;
- 
 }
 
 .card-text {
-
   min-height: 100px;
 }
 
-
-
 /* Styling for the main paragraph on index.html */
-
 .custom-paragraph {
-
   padding-right: 2%;
   color: black;
   font-weight: 500;
-
 }
 
 /* Buttons */
@@ -100,7 +90,6 @@ h3 {
   border: 2px solid var(--highlight-color);
   background-color: var(--highlight-color);
   color: white;
-
   margin-left: 10px;
 }
 
@@ -157,7 +146,7 @@ nav {
   font-weight: 600;
 }
 
-
+/* Custom container padding */
 .container {
   padding-right: 15px;
 }
@@ -170,6 +159,7 @@ nav {
   color: var(--primary-color);
 }
 
+/* Footer styling */
 footer {
   background-color: #f8f9fa;
   /* Light background */
@@ -190,9 +180,6 @@ footer .social-links i:hover {
   transform: scale(1.2);
 }
 
-
-
-
 /*Media quries for greater control at different resolutions */
 @media (min-width: 768px) {
 
@@ -200,7 +187,6 @@ footer .social-links i:hover {
      #services .card-body { 
         min-height: 190px; 
     }
-
 }
 
 /*Media quries for greater control at different resolutions */

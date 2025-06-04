@@ -37,9 +37,8 @@
 
     <!-- Custom stylesheet -->
     <link rel="stylesheet" href="/assets/css/style.css">
-
-
 </head>
+
 <!-- Display Flex, direction to column layout that fills the full viewport height. 
 Footer stays at the bottom even if content is short, min 100% vertical height. -->
 
@@ -73,7 +72,8 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
                     <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
                     <!-- <li class="nav-item"><a class="nav-link" href="#about">About</a></li> -->
                     <li class="nav-item">
-                        <a href="subscribe.html" class="btn nav-link custom-button-filled ms-lg-3 active-page">Subscribe</a>
+                        <a href="subscribe.html"
+                            class="btn nav-link custom-button-filled ms-lg-3 active-page">Subscribe</a>
                     </li>
                 </ul>
             </div>
@@ -92,43 +92,50 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
                     <p class="lead display-7 mb-5 custom-paragraph text-center">Sign up for our monthly newsletter.</p>
                     <form action="success.html" method="GET">
                         <div class="row">
+                            <!-- Name -->
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="name" class="form-label">Name</label>
                                 <input class="form-control" id="name" name="name" type="text" required>
                             </div>
+
+                            <!-- Email -->
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="email" class="form-label">Email</label>
                                 <input class="form-control" id="email" name="email" type="email" required>
                             </div>
+
+                            <!-- Phone number -->
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="phone" class="form-label">Phone number</label>
-                                <input class="form-control" id="phone" name="phone" type="number" required>
+                                <input class="form-control" id="phone" name="phone" type="tel" required>
                             </div>
+
+                            <!-- Date of Birth -->
                             <div class="col-12 col-lg-6 mb-3">
-
-                                <!-- Calendar input field -->
-                                <div class="col-sm-6 col-md-12 col-lg-4 mb-3">
-                                    <label for="requested-date" name="requested-date" class="form-label">D.O.B</label>
-                                    <div class="input-icon-wrapper position-relative">
-                                        <input id="requested-date" type="text" class="form-control"
-                                            placeholder="dd/mm/yyyy" required>
-                                        <i id="calendar-icon"
-                                            class="fa-regular fa-calendar position-absolute top-50 end-0 translate-middle-y me-3"
-                                            style="cursor:pointer;"></i>
-                                    </div>
-
+                                <label for="requested-date" class="form-label">D.O.B (minimum age 4)</label>
+                                <div class="input-icon-wrapper position-relative">
+                                    <input id="requested-date" name="requested-date" type="text" class="form-control"
+                                        placeholder="dd/mm/yyyy" required>
+                                    <i id="calendar-icon"
+                                        class="fa-regular fa-calendar position-absolute top-50 end-0 translate-middle-y me-3"
+                                        style="cursor:pointer;"></i>
                                 </div>
                             </div>
+
+
+                            <!-- Address -->
                             <div class="col-12 mb-3">
                                 <label for="address" class="form-label">Address</label>
-                                <input class="form-control" id="address" name="address" required>
+                                <input class="form-control" id="address" name="address" type="text" required>
                             </div>
 
-
+                            <!-- Submit Button -->
                             <div class="col-12 text-end pt-3 mb-5">
                                 <button type="submit" class="btn custom-button-filled">Submit</button>
                             </div>
+                        </div>
                     </form>
+
                 </div>
             </div>
         </section>
@@ -181,20 +188,34 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
     <script>
-        flatpickr("#requested-date", {
-            altInput: true,
-            altFormat: "d/m/Y",
-            dateFormat: "Y-m-d",
-            minDate: "today"
-        });
+    // Calculate today's date minus 4 years
+    const today = new Date();
+    const minAgeDate = new Date(today.getFullYear() - 4, today.getMonth(), today.getDate());
 
-        const dateInput = document.getElementById('requested-date');
-        const calendarIcon = document.getElementById('calendar-icon');
+    flatpickr("#requested-date", {
+        altInput: true,
+        altFormat: "d/m/Y",
+        dateFormat: "Y-m-d",
+        maxDate: minAgeDate,
+        allowInput: true
+    });
 
-        calendarIcon.addEventListener('click', () => {
-            dateInput._flatpickr.open();
-        });
-    </script>
+    const dateInput = document.getElementById('requested-date');
+    const calendarIcon = document.getElementById('calendar-icon');
+
+    calendarIcon.addEventListener('click', () => {
+        dateInput._flatpickr.open();
+    });
+
+    // Prevent form submission if DOB is empty
+    document.querySelector('form').addEventListener('submit', function (e) {
+        if (!dateInput.value) {
+            e.preventDefault();
+            alert("Please enter your date of birth.");
+            dateInput.focus();
+        }
+    });
+</script>
 
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>

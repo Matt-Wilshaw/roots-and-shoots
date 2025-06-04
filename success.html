@@ -78,10 +78,20 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
         </div>
     </nav>
 
-    <header>
-        Success page
-
-    </header>
+    <main class="container text-center my-5">
+        <h1 class="mb-4 text-success">Thank you for subscribing!</h1>
+        <p class="lead">Here are your submitted details:</p>
+        <ul class="list-group list-group-flush text-start d-inline-block text-break">
+            <li class="list-group-item"><strong>Name:</strong> <span id="name"></span></li>
+            <li class="list-group-item"><strong>Email:</strong> <span id="email"></span></li>
+            <li class="list-group-item"><strong>Phone:</strong> <span id="phone"></span></li>
+            <li class="list-group-item"><strong>Date of Birth:</strong> <span id="dob"></span></li>
+            <li class="list-group-item"><strong>Address:</strong> <span id="address"></span></li>
+        </ul>
+        <div>
+            <a href="index.html" class="btn btn-success mt-4">Back to Home</a>
+        </div>
+    </main>
 
 
 
@@ -128,6 +138,21 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
 
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
+
+    <script>
+        // Helper function to get URL parameters
+        function getParam(name) {
+            const url = new URLSearchParams(window.location.search);
+            return url.get(name) || 'Not provided';
+        }
+
+        // Fill in the values
+        document.getElementById('name').textContent = getParam('name');
+        document.getElementById('email').textContent = getParam('email');
+        document.getElementById('phone').textContent = getParam('phone');
+        document.getElementById('dob').textContent = getParam('requested-date');
+        document.getElementById('address').textContent = getParam('address');
+    </script>
 
 </body>
 
