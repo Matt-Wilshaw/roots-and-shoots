@@ -35,11 +35,30 @@ and progressive web app (PWA) practices, and generates a report with suggestions
 
 **Defects Fixed**
 
+1. Subscribe.html
+- Output of submitted form is YYYY-MM-DD, desired output is DD-MM-YYYY
+- dateFormat: "d-m-Y", //Changed dateFormat to reflect UK format
+
+2. Subscribe.html
+- Able to submit a form without inputting a DOB in the required field.
+- Added the following code from Stack Overflow, tested and confirmed working
+
+// Prevent form submission if DOB is empty
+    document.querySelector('form').addEventListener('submit', function (e) {
+        if (!dateInput.value) {
+            e.preventDefault();
+            alert("Please enter your date of birth.");
+            dateInput.focus();
+        }
+
+![Subscription testing image](/testing-images/subscription_testing.jpg)
+
+
 **Defects Unresolved**
 
-## User Stories
+Subscribe.html
+-You are able to put an unrealistic DOB into the field
 
-# User Acceptance Stories – Roots and Shoots Website
 
 # User Acceptance Stories – Roots and Shoots Website
 
