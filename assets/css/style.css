@@ -65,7 +65,7 @@ h3 {
 .card {
   height: 100%;
   display: flex;
-  /* Aligns all its child elements image and .card-body in a column. */
+ /* Aligns all its child elements image and .card-body in a column. */
   flex-direction: column;
 }
 
@@ -106,7 +106,7 @@ h3 {
   border: none;
 }
 
-/* Styled button with werbsite theme with edges and curser pointer */
+/* Styled button with website theme with edges and curser pointer */
 .custom-button-card {
   display: inline-flex;
   align-items: center;
