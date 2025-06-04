@@ -29,6 +29,10 @@ Unresolved validation, changing of these suggested elements breaks the layout of
 
 ![Validation of events.html](/testing-images/events_validation.jpg)
 
+## gallery.html
+
+![Validation of gallery.html](/testing-images/gallery_validation.jpg)
+
 
 
 
