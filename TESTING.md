@@ -39,9 +39,141 @@ and progressive web app (PWA) practices, and generates a report with suggestions
 
 ## User Stories
 
-As a first time user I need easy navigation of the website
+# User Acceptance Stories – Roots and Shoots Website
 
-As a visualy impaired person I need to be able to use a screen reader
+# User Acceptance Stories – Roots and Shoots Website
+
+---
+
+## 1. Subscribe to Newsletter
+
+**Story:**  
+As a visitor, I want to subscribe to the Roots and Shoots newsletter so that I can receive monthly updates about plants and events.
+
+**Acceptance Criteria:**  
+- Given I am on the subscription page  
+- When I fill in all required fields and click submit  
+- Then I should be redirected to a success page displaying my submitted details
+
+**Tasks:**  
+- [Done] Ensure all form fields (name, email, phone, DOB, address) have `required` validation  
+- [Done] Create `success.html` page to display submitted data  
+- [Done] Ensure form uses `GET` or `POST` method appropriately  
+- [Done] Sanitize and handle form data properly  
+- [Done] Style the success page to match branding
+
+---
+
+## 2. Responsive Navigation
+
+**Story:**  
+As a user on any device, I want the navigation menu to adjust for mobile and desktop so that I can navigate the site easily.
+
+**Acceptance Criteria:**  
+- Given I am using a small-screen device  
+- When I tap the hamburger menu  
+- Then the navigation options should expand visibly and be clickable
+
+**Tasks:**  
+- [Done] Use Bootstrap’s responsive navbar with toggler icon  
+- [Done] Ensure toggle menu works on mobile  
+- [Done] Verify all links are accessible and functional  
+- [Done] Style expanded menu for readability on small screens  
+- [Done] Test with browser dev tools at multiple breakpoints
+
+---
+
+## 3. Date of Birth Validation
+
+**Story:**  
+As a parent signing up my child, I want the form to restrict sign-ups for children under 4 years old.
+
+**Acceptance Criteria:**  
+- Given I enter a birthdate under 4 years ago  
+- When I try to submit the form  
+- Then I should be blocked from submitting and shown an appropriate alert message
+
+**Tasks:**  
+- [Done] Set up Flatpickr with `maxDate` of today minus 4 years  
+- [Done] Add JS validation for empty or invalid DOB input  
+- [Done] Display alert if DOB does not meet age requirement  
+- [Done] Test DOB logic using past/future edge cases
+
+---
+
+## 4. Social Media Links
+
+**Story:**  
+As a user, I want to follow Roots and Shoots on social media so that I can stay engaged via Instagram, Facebook, and X.
+
+**Acceptance Criteria:**  
+- Given I click on a social media icon in the footer  
+- When I do so  
+- Then I should be taken to the appropriate social media page in a new browser tab
+
+**Tasks:**  
+- [Done] Ensure all icons have correct external links  
+- [Done] Add `target="_blank"` and `rel="noopener"` to each link  
+- [Done] Use accessible labels (`aria-label`) for screen readers  
+- [Done] Verify links open properly in new tabs  
+- [Done] Confirm icons are styled and hover correctly
+
+---
+
+## 5. Accessibility and Keyboard Navigation
+
+**Story:**  
+As a user with accessibility needs, I want to navigate the site using only my keyboard so that I can access all features.
+
+**Acceptance Criteria:**  
+- Given I use the Tab key  
+- When I navigate through the page  
+- Then all focusable elements (links, buttons, inputs) should be reachable and visibly focused
+
+**Tasks:**  
+- [Done] Ensure all interactive elements are focusable  
+- [Done] Apply visible `:focus` styles  
+- [Done] Verify tab order follows logical flow  
+- [Done] Use semantic HTML for structure (e.g. `<main>`, `<nav>`)  
+- [Done] Test with screen reader if available
+
+---
+
+## 6. Form Validation Errors
+
+**Story:**  
+As a user, I want to know when a form field is missing or incorrectly filled so that I can correct it before submitting.
+
+**Acceptance Criteria:**  
+- Given I leave a required field empty or enter an invalid value  
+- When I attempt to submit the form  
+- Then I should see a message telling me what needs to be corrected
+
+**Tasks:**  
+- [Done] Use built-in HTML validation (`required`, `type`, `pattern`)  
+- [Done] Add custom JS validation for enhanced feedback (e.g., DOB)  
+- [Done] Show user-friendly error messages  
+- [Done] Prevent form submission if errors are present  
+- [Done] Highlight invalid fields visually
+
+---
+
+## 7. Custom Styling and Branding
+
+**Story:**  
+As a first-time visitor, I want the site to look visually appealing and match the Roots and Shoots brand so that I trust its quality.
+
+**Acceptance Criteria:**  
+- Given I view any page  
+- Then I should see consistent use of colors, fonts, and the Roots and Shoots logo
+
+**Tasks:**  
+- [Done] Apply consistent branding styles across all pages  
+- [Done] Use custom stylesheet (`style.css`) with theme variables  
+- [Done] Ensure logo is displayed and scaled properly  
+- [Done] Check color contrast for accessibility  
+- [Done] Validate font consistency and layout spacing
+
 
 
 
