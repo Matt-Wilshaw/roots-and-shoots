@@ -37,7 +37,7 @@ h2,
 h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
-  font-weight: 0.5rem;
+  
 }
 
 #header {
@@ -121,7 +121,6 @@ h3 {
   background-color: var(--primary-color);
   color: white;
   border: none;
-  border-radius: 6px solid;
   cursor: pointer;
 }
 
@@ -205,7 +204,7 @@ footer .social-links i:hover {
 }
 
 
-/*Media quries for greater control at different resolutions */
+/*Media queries for greater control at different resolutions */
 @media (min-width: 768px) {
 
     /* Make all service cards the same height for consistency */
@@ -214,7 +213,7 @@ footer .social-links i:hover {
     }
 }
 
-/*Media quries for greater control at different resolutions */
+/*Media queries for greater control at different resolutions */
 @media (min-width: 768px) {
 
     /* Make all service cards the same height for consistency */

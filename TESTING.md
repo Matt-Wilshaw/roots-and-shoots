@@ -7,6 +7,13 @@
 CSS validation is the process of checking your CSS code to ensure it follows the official syntax rules defined by the W3C (World Wide Web Consortium). 
 It helps you catch errors, improve browser compatibility, and write cleaner, more maintainable styles so that other developers can work on your code if required. - W3C
 
+## style.css
+
+![css validation](/testing-images/css_validation.jpg)
+
+- Removed unused font weight
+- Removed solid is not a border-radius value : 6px solid
+
 # HTML validation
 
 HTML validation is used to check whether your HTML code follows the official standards and syntax rules defined by the W3C (World Wide Web Consortium). 
@@ -47,6 +54,11 @@ Further research assisted with the below fix to line 345
 ## success.html
 
 ![Validation of success.html](/testing-images/success_validation.jpg)
+
+# Summary
+
+Minor tweaks to formatting and the addition of closing tags have been added.
+Site is now CSS and HTML validated
 
 
 
