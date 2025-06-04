@@ -2,8 +2,6 @@
 
 # Validation Testing using W3C
 
-
-
 # CSS validation
 
 CSS validation is the process of checking your CSS code to ensure it follows the official syntax rules defined by the W3C (World Wide Web Consortium). 
@@ -15,6 +13,10 @@ HTML validation is used to check whether your HTML code follows the official sta
 Validating your HTML helps ensure your website works correctly, is accessible, and is easier to maintain. Validating HTML also enhances search engine optimization (SEO) 
 and ensures consistent display across different browsers.  - W3C
 
+## index.html
+
+![Validation of index.html](/testing-images/index_validation.jpg)
+
 # Lighthouse
 
 Lighthouse is an open-source, automated tool created by Google to analyse and improve the quality of web pages. It audits various aspects of a webpage, including performance, accessibility, SEO, 
@@ -24,7 +26,7 @@ and progressive web app (PWA) practices, and generates a report with suggestions
 
 # Screen Reader
 
-#Bowser Compatibility
+# Bowser Compatibility
 
 - Edge
 - Chrome
