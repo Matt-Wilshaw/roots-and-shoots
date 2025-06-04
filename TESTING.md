@@ -44,6 +44,10 @@ Further research assisted with the below fix to line 345
 
 ![Validation of subscribe.html](/testing-images/subscribe_validation.jpg)
 
+## success.html
+
+![Validation of success.html](/testing-images/success_validation.jpg)
+
 
 
 
