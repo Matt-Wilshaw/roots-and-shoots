@@ -50,6 +50,8 @@ h3 {
 .nav-tabs .nav-link {
   color: black !important;
 }
+
+/* Underline the active links for the tabs*/
 .nav-tabs .nav-link.active {
   text-decoration: underline;
 }
@@ -74,6 +76,7 @@ h3 {
   flex-grow: 1;
 }
 
+/* Min height for the card text */
 .card-text {
   min-height: 100px;
 }
@@ -172,10 +175,12 @@ footer h4 {
   font-family: var(--secondary-font);
 }
 
+/* Controls how quickly the icons transistion is size for smoothness */
 footer .social-links i {
   transition: transform 0.2s ease;
 }
 
+/* Increases the size of the icons when hovered over */
 footer .social-links i:hover {
   transform: scale(1.2);
 }
