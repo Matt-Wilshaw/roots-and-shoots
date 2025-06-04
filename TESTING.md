@@ -17,6 +17,21 @@ and ensures consistent display across different browsers.  - W3C
 
 ![Validation of index.html](/testing-images/index_validation.jpg)
 
+## plants.html
+
+![Validation of plants.html](/testing-images/plants_validation.jpg)
+
+Unresolved validation, changing of these suggested elements breaks the layout of the page
+
+![Unresolved plants.html validation](/testing-images/plants_validation_unresolved.jpg)
+
+## events.html
+
+![Validation of events.html](/testing-images/events_validation.jpg)
+
+
+
+
 # Lighthouse
 
 Lighthouse is an open-source, automated tool created by Google to analyse and improve the quality of web pages. It audits various aspects of a webpage, including performance, accessibility, SEO, 
