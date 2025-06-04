@@ -25,6 +25,13 @@ Unresolved validation, changing of these suggested elements breaks the layout of
 
 ![Unresolved plants.html validation](/testing-images/plants_validation_unresolved.jpg)
 
+Further research assisted with the below fix to line 345
+
+ </section>
+            </div> <!-- End of #nav-house tab pane -->
+        </div> <!-- Closing tag-content -->
+    </main>
+
 ## events.html
 
 ![Validation of events.html](/testing-images/events_validation.jpg)
@@ -32,6 +39,10 @@ Unresolved validation, changing of these suggested elements breaks the layout of
 ## gallery.html
 
 ![Validation of gallery.html](/testing-images/gallery_validation.jpg)
+
+## subscribe.html
+
+![Validation of subscribe.html](/testing-images/subscribe_validation.jpg)
 
 
 
