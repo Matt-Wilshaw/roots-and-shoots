@@ -17,10 +17,10 @@ and ensures consistent display across different browsers.  - W3C
 
 # Lighthouse
 
-Lighthouse is an open-source, automated tool created by Google to analyze and improve the quality of web pages. It audits various aspects of a webpage, including performance, accessibility, SEO, 
+Lighthouse is an open-source, automated tool created by Google to analyse and improve the quality of web pages. It audits various aspects of a webpage, including performance, accessibility, SEO, 
 and progressive web app (PWA) practices, and generates a report with suggestions for improvement. - Google
 
-# autopfixer for other browsers
+# autoprefixer for other browsers
 
 # Screen Reader
 
