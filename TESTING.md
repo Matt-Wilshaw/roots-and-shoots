@@ -117,6 +117,8 @@ and progressive web app (PWA) practices, and generates a report with suggestions
 
 ![Nested Google maps are not responsive on smaller screens](/testing-images/google_maps_responsive.jpg)
 
+- Added h-100 d-flex flex-column with flex-grow-1 on the paragraph to make the text fill out the available space. 
+
 
 **Defects Unresolved**
 

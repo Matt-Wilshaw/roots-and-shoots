@@ -144,7 +144,7 @@ nav {
   color: var(--primary-color);
 }
 
-/* Defines navBar font size and weight */
+/* Defines navBar font size and */
 .navbar-nav .nav-link {
   font-size: 1.25rem;
   font-weight: 600;
@@ -187,42 +187,26 @@ footer .social-links i:hover {
 }
 
 /* iframe styling for HTML validation and responsiveness */
-.iframe-container {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    height: 0;
+
+/* Responsive Map Styles */
+.map-responsive {
     overflow: hidden;
-    border-radius: 8px; /* optional */
+    /* Establishes a new positioning context for absolutely positioned children */
+    position: relative;
+    /* This creates a 4:3 aspect ratio (height is 75% of width).*/
+    padding-bottom: 75%;
+    height: 0; /* Ensures the height is controlled by padding-bottom */
+    border-radius: 8px; /* Adds rounded edges to your maps */
 }
 
-.iframe-container iframe {
+.map-responsive iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    border: 0;
+    border: 0; /* Removes the iframe's default border */
 }
-
-.map-responsive {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  height: 0;
-  overflow: hidden;
-  border-radius: 0.5rem; /* Optional: rounded corners */
-}
-
-.map-responsive iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
 
 
 /*Media queries for greater control at different resolutions */
