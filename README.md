@@ -16,6 +16,7 @@ Designed using Jesse James Garrett’s *Five Planes of User Experience*, the sit
   - [Scope](#scope)
   - [Structure](#structure)
   - [Skeleton](#skeleton)
+- [Wireframes](#wireframes)
   - [Surface](#surface)
   - [Accessibility](#accessibility)
   - [Target Audience](#target-audience)
@@ -33,7 +34,6 @@ Designed using Jesse James Garrett’s *Five Planes of User Experience*, the sit
     - [Getting Started](#getting-started)
       - [1. Clone the Repository](#1-clone-the-repository)
       - [2. Open the Project in VS Code](#2-open-the-project-in-vs-code)
-- [Wireframes](#wireframes)
   
 ---
 # Introduction
@@ -100,6 +100,41 @@ While your primary font can be eye-catching and unique, your secondary font shou
 **Primary Font: Lora**
 -Use for: Paragraphs, guides, educational text.
 - fallback, serif.
+
+# Wireframes
+
+**Phone**
+
+![index.html](/readme-images/images_phone/index.jpg)
+![plants.html](/readme-images/images_phone/plants.jpg)
+![events.html](/readme-images/images_phone/events.jpg)
+![gallery.html](/readme-images/images_phone/gallery.jpg)
+![about.html](/readme-images/images_phone/about.jpg)
+![booking.html](/readme-images/images_phone/join.jpg)
+![success.html](/readme-images/images_phone/success.jpg)
+
+**Tablet**
+
+![index.html](/readme-images/images_tablet/index.jpg)
+![plants.html](/readme-images/images_tablet/plants.jpg)
+![events.html](/readme-images/images_tablet/events.jpg)
+![gallery.html](/readme-images/images_tablet/gallery.jpg)
+![about.html](/readme-images/images_tablet/about.jpg)
+![booking.html](/readme-images/images_tablet/join.jpg)
+![success.html](/readme-images/images_tablet/success.jpg)
+
+
+**Desktop design**
+
+![index.html](/readme-images/images_desktop/index.jpg)
+![plants.html](/readme-images/images_desktop/plants.jpg)
+![events.html](/readme-images/images_desktop/events.jpg)
+![gallery.html](/readme-images/images_desktop/gallery.jpg)
+![about.html](/readme-images/images_desktop/about.jpg)
+![booking.html](/readme-images/images_desktop/join.jpg)
+![success.html](/readme-images/images_desktop/success.jpg)
+
+
 
 ---
 ## Surface
@@ -279,19 +314,6 @@ Right-click index.html → Open with Live Server
 
 Or click the "Go Live" button in the bottom-right corner of VS Code
 
-
-# Wireframes
-
-
-
-**Desktop design**
-
-- [index.html](/readme-images/Images_index/index.png)
-- [plants.html](/readme-images/Images_index/plants.png)
-- [events.html](/readme-images/Images_index/events.png)
-- [gallery.html](/readme-images/Images_index/gallery.png)
-- [booking.html](/readme-images/Images_index/booking.png)
-- [success.html](/readme-images/Images_index/success.png)
 
 
 
