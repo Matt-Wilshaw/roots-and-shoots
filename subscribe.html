@@ -70,15 +70,15 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
                     <li class="nav-item"><a class="nav-link" href="plants.html">Plants</a></li>
                     <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
                     <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link" href="#about">About</a></li> -->
-                    <li class="nav-item">
-                        <a href="subscribe.html"
-                            class="btn nav-link custom-button-filled ms-lg-3 active-page">Subscribe</a>
+
+                    <!-- Spacing rules for the navBar and is right aligned using ms-auto -->
+                    <li class="nav-item nav-spaced ms-auto">
+                        <a href="subscribe.html" class="btn nav-link custom-button-filled">Subscribe</a>
                     </li>
                 </ul>
             </div>
         </div>
-       
+
     </nav>
 
 
@@ -169,13 +169,13 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
                         class="text-decoration-none text-dark">info@rootsandshoots.com</a>
                 </p>
 
-                 <!-- Copyright section -->
+                <!-- Copyright section -->
                 <div class="text-center pt-1 small text-muted">
                     &copy; 2025 Roots and Shoots. All rights reserved.
                 </div>
             </div>
         </div>
-        
+
     </footer>
 
     <!-- Bootstrap JS script -->
@@ -187,34 +187,34 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
     <script>
-    // Calculate today's date minus 4 years
-    const today = new Date();
-    const minAgeDate = new Date(today.getFullYear() - 4, today.getMonth(), today.getDate());
+        // Calculate today's date minus 4 years
+        const today = new Date();
+        const minAgeDate = new Date(today.getFullYear() - 4, today.getMonth(), today.getDate());
 
-    flatpickr("#requested-date", {
-        altInput: true,
-        altFormat: "d/m/Y",
-        dateFormat: "d-m-Y", //Changed dateFormat to reflect UK format
-        maxDate: minAgeDate,
-        allowInput: true
-    });
+        flatpickr("#requested-date", {
+            altInput: true,
+            altFormat: "d/m/Y",
+            dateFormat: "d-m-Y", //Changed dateFormat to reflect UK format
+            maxDate: minAgeDate,
+            allowInput: true
+        });
 
-    const dateInput = document.getElementById('requested-date');
-    const calendarIcon = document.getElementById('calendar-icon');
+        const dateInput = document.getElementById('requested-date');
+        const calendarIcon = document.getElementById('calendar-icon');
 
-    calendarIcon.addEventListener('click', () => {
-        dateInput._flatpickr.open();
-    });
+        calendarIcon.addEventListener('click', () => {
+            dateInput._flatpickr.open();
+        });
 
-    // Prevent form submission if DOB is empty
-    document.querySelector('form').addEventListener('submit', function (e) {
-        if (!dateInput.value) {
-            e.preventDefault();
-            alert("Please enter your date of birth.");
-            dateInput.focus();
-        }
-    });
-</script>
+        // Prevent form submission if DOB is empty
+        document.querySelector('form').addEventListener('submit', function (e) {
+            if (!dateInput.value) {
+                e.preventDefault();
+                alert("Please enter your date of birth.");
+                dateInput.focus();
+            }
+        });
+    </script>
 
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>

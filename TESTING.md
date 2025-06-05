@@ -11,8 +11,14 @@ It helps you catch errors, improve browser compatibility, and write cleaner, mor
 
 ![css validation](/testing-images/css_validation.jpg)
 
+**Errors fixed**
+
 - Removed unused font weight
 - Removed solid is not a border-radius value : 6px solid
+
+**Warnings not resolved**
+
+The following 4 errors listed are out of the webdesingers control and therfore they have only been noted.
 
 # HTML validation
 
@@ -61,8 +67,6 @@ Minor tweaks to formatting and the addition of closing tags have been added.
 Site is now CSS and HTML validated
 
 
-
-
 # Lighthouse
 
 Lighthouse is an open-source, automated tool created by Google to analyse and improve the quality of web pages. It audits various aspects of a webpage, including performance, accessibility, SEO, 
@@ -100,6 +104,16 @@ and progressive web app (PWA) practices, and generates a report with suggestions
         }
 
 ![Subscription testing image](/testing-images/subscription_testing.jpg)
+
+3. Burger menu subscibe button is too wide on smaller screens.
+- Controlled by the following code
+- <li class="nav-item">
+            <a href="subscribe.html" class="btn nav-link custom-button-filled ms-lg-3">Subscribe</a>
+          </li>
+-  Added the following -nav-spaced ms-auto- to the navBar class to allign it right when burger menu is expanded. Also removed redundant ms-lg-3. Made changes to all pages.
+-   <li class="nav-item nav-spaced ms-auto">
+            <a href="subscribe.html" class="btn nav-link custom-button-filled">Subscribe</a>
+          </li>
 
 
 **Defects Unresolved**
