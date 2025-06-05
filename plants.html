@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <!-- Character Encoding -->
     <meta charset="UTF-8">
 
@@ -35,53 +36,54 @@
     <!-- Custom stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
-
 </head>
+
 <!-- Display Flex, direction to column layout that fills the full viewport height. 
 Footer stays at the bottom even if content is short, min 100% vertical height. -->
 
 <body class="d-flex flex-column min-vh-100">
 
     <!-- Navigation -->
-<header>
-    <!-- Bootstrap NavBar with added NavBar class expand horizontal on medium screens (md, ≥768px) and larger. On smaller screens, it collapses -->
-    <nav class="navbar navbar-expand-md">
+    <header>
+        <!-- Bootstrap NavBar with added NavBar class expand horizontal on medium screens (md, ≥768px) and larger. On smaller screens, it collapses -->
+        <nav class="navbar navbar-expand-md">
 
-        <!-- Container that increases padding dynamically as screen size gets bigger -->
-        <div class="container">
-            <!-- NavBar logo -->
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/images/roots-and-shoots-logo2.png" alt="Roots-and-Shoots website logo" class="logo">
-            </a>
+            <!-- Container that increases padding dynamically as screen size gets bigger -->
+            <div class="container">
 
-            <!-- Hamburger Button using navbar toggle that shows up on smaller screens ≤768px -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <!-- NavBar logo -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/roots-and-shoots-logo2.png" alt="Roots-and-Shoots website logo"
+                        class="logo">
+                </a>
 
-            <!-- Collapsible Navigation Menu -->
-            <div class="collapse navbar-collapse text-end" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-spaced ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="plants.html">Plants</a></li>
-                    <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
-                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <!-- Hamburger Button using navbar toggle that shows up on smaller screens ≤768px -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                    <!-- Spacing rules for the navBar and is right aligned using ms-auto -->
-                    <li class="nav-item nav-spaced ms-auto">
-                        <a href="subscribe.html" class="btn nav-link custom-button-filled">Subscribe</a>
-                    </li>
-                </ul>
+                <!-- Collapsible Navigation Menu -->
+                <div class="collapse navbar-collapse text-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-spaced ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="plants.html">Plants</a></li>
+                        <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+
+                        <!-- Spacing rules for the navBar and is right aligned using ms-auto -->
+                        <li class="nav-item nav-spaced ms-auto">
+                            <a href="subscribe.html" class="btn nav-link custom-button-filled">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </nav>
+    </header>
 
-    </nav>
-</header>
     <main>
         <div class="container text-center">
-            <!-- <h2 class="display-6 fw-bold py-5">The Gallery</h2> -->
             <h1 class="display-5 mt-3 mb-3 py-3 text-center">Plant Care</h1>
             <p class="lead display-7 mb-3 custom-paragraph text-center">The Roots and Shoots home for plant care and
                 advice.</p>
@@ -92,10 +94,10 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
                     type="button" role="tab" aria-controls="nav-fruit" aria-selected="false">Fruit</button>
                 <button class="nav-link" id="nav-house-tab" data-bs-toggle="tab" data-bs-target="#nav-house"
                     type="button" role="tab" aria-controls="nav-house" aria-selected="false">House Plants</button>
-
-
             </div>
         </div>
+
+        <!-- Veg tab section -->
         <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="nav-veg" role="tabpanel" aria-labelledby="nav-veg-tab"
                 tabindex="0">
@@ -213,10 +215,10 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
                             </div>
                         </div>
                     </div>
-
                 </section>
-
             </div>
+
+            <!-- Fruit tab section -->
             <div class="tab-pane fade" id="nav-fruit" role="tabpanel" aria-labelledby="nav-fruit-tab" tabindex="0">
                 <section id="fruit" class="container section">
                     <div class="row">
@@ -286,6 +288,8 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
                     </div>
                 </section>
             </div>
+
+            <!-- Houseplant tab section -->
             <div class="tab-pane fade" id="nav-house" role="tabpanel" aria-labelledby="nav-house-tab" tabindex="0">
                 <section id="house" class="container section">
                     <div class="row">
@@ -346,9 +350,8 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
         </div>
     </main>
 
-
-
     <!-- Footer / contact section -->
+
     <!-- mt-auto added to push footer to the bottom of the page -->
     <footer id="contact" class="mt-auto">
         <div class="container section">
@@ -382,12 +385,9 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
                 </div>
             </div>
         </div>
-
-
     </footer>
 
     <!-- Bootstrap JS script -->
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script>

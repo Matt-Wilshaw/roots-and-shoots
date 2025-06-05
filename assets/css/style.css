@@ -10,20 +10,24 @@
 
 /* CSS Variables */
 :root {
+
+  /* Primary font for the website navigation */
   --primary-font: "Nunito", sans-serif;
-  /*Heading, logos, navigation*/
+
+  /* Headings and Paragraphs */
   --secondary-font: "Lora", serif;
 
+  /* Apple Green - Heading, logos, navigation */
   --primary-color: #3B993A;
-  /* Apple Green - Heading, logos, navigation*/
-  --secondary-color: #88BA81;
+
   /* Olive Green */
+  --secondary-color: #88BA81;
 
-  --highlight-color: #43878A;
   /* Faded Jade */
-  --highlight-color-light: #7a9fc2;
-  /*Light Blue*/
+  --highlight-color: #43878A;
 
+  /* Light Blue */
+  --highlight-color-light: #7a9fc2;
 }
 
 /* Stops the scroll shifting the content left */
@@ -31,8 +35,9 @@ html {
   overflow-y: scroll;
 }
 
-/* Circle that take up 50% with a white colour gradually going to background colour*/
+/* Circle that take up 50% with a white colour gradually going to background colour */
 body {
+
   /* color: var(--primary-color); */
   font-family: var(--primary-font);
   background: -o-radial-gradient(circle, white 50%, #dbffe0 100%);
@@ -45,7 +50,6 @@ h2,
 h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
-
 }
 
 #header {
@@ -59,7 +63,7 @@ h3 {
   color: black !important;
 }
 
-/* Underline the active links for the tabs*/
+/* Underline the active links for the tabs */
 .nav-tabs .nav-link.active {
   text-decoration: underline;
 }
@@ -68,11 +72,12 @@ h3 {
 .card-footer {
   font-weight: bold;
   color: var(--highlight-color);
+
   /* Pushes the footer to the bottom of the card-body */
   margin-top: auto;
+
   /* Ensure footer spans full width */
   width: 100%;
-  
 }
 
 /* Stretched to fill the full height of its container and to be responsive(flex)*/
@@ -81,35 +86,36 @@ h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+
   /* Aligns all its child elements image and .card-body in a column. */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 /* .card-body to take up as much vertical space as available inside the .card */
 .card-body {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
 
 /* Min height for the card text */
 .card-text {
   /* flex-grow: 1 allows the paragraph to take up all available space, pushing down the footer. */
   min-height: 100px;
-  
-  /* Set a reasonable min-height, but the flex-grow will handle distribution for varied text. */  
-  -webkit-box-flex: 1;  
-      -ms-flex-positive: 1;  
-          flex-grow: 1;
-  
+
+  /* Set a reasonable min-height, but the flex-grow will handle distribution for varied text. */
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+
   /* Increased from 100px to give more room */
   min-height: 120px;
-  
+
   /* Add some space below the paragraph before the footer */
-  margin-bottom: 1rem;  
+  margin-bottom: 1rem;
 }
 
 /* Styling for the main paragraph on index.html */
@@ -147,11 +153,11 @@ h3 {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 100%;
   padding: 0.75rem 1.25rem;
   font-size: 1rem;
@@ -164,6 +170,7 @@ h3 {
 
 /* Navigation styling */
 nav {
+
   /* Linear-gradient, Defines a gradient top to bottom */
   background: -webkit-gradient(linear, left top, left bottom, from(#bcf1ff), to(white));
   background: -o-linear-gradient(top, #bcf1ff, white);
@@ -174,7 +181,7 @@ nav {
   /* 2px → Vertical offset (2px below the element) */
   /* 10px → Blur radius to softens the shadow edges) */
   -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -217,7 +224,7 @@ footer h4 {
 }
 
 /* Social links */
-.social-links > a {
+.social-links>a {
   margin-right: 16px;
 }
 
@@ -233,8 +240,8 @@ footer .social-links i {
 /* Increases the size of the icons when hovered over */
 footer .social-links i:hover {
   -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-          transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 /* iframe styling for HTML validation and responsiveness */
@@ -242,14 +249,18 @@ footer .social-links i:hover {
 /* Responsive Map Styles */
 .map-responsive {
   overflow: hidden;
+
   /* Establishes a new positioning context for absolutely positioned children */
   position: relative;
+
   /* This creates a 4:3 aspect ratio (height is 75% of width).*/
   padding-bottom: 75%;
-  height: 0;
+
   /* Ensures the height is controlled by padding-bottom */
-  border-radius: 8px;
+  height: 0;
+
   /* Adds rounded edges to your maps */
+  border-radius: 8px;
 }
 
 .map-responsive iframe {
@@ -258,12 +269,14 @@ footer .social-links i:hover {
   left: 0;
   width: 100%;
   height: 100%;
+
   /* Removes the iframe's default border */
   border: 0;
 }
 
 /* Stops modal from making the page wider and shifting it left */
-html, body {
+html,
+body {
   overflow-x: hidden;
   max-width: 100vw;
 }
@@ -279,6 +292,4 @@ body.modal-open {
   #services .card-body {
     min-height: 190px;
   }
-
-
 }
