@@ -136,6 +136,14 @@ Tested using Windows Narrator, no issue found.
 
 ![Plants text area is different heights on different screens resolution.](/testing-images/plants_scaling_resolved.jpg.jpg)
 
+6. Modal shift page left when clicking on an image.
+
+![Modal shift page left when clicking on an image.](/testing-images/modal_issue.jpg)
+
+Added the following code to stop the shift of the Modal
+
+![Modal shift page left when clicking on an image.](/testing-images/modal_issue_resolved.jpg)
+
 
 **Defects Unresolved**
 
