@@ -178,7 +178,7 @@ Mobile-optimised carousels for browsing featured gardens and plants.
 
 ## Target Audience
 
-- **Age Range:** Children (7+), Teens (up to 17), Families, and Educators.
+- **Age Range:** Children (4+), Teens (up to 17), Families, and Educators.
 - Beginner and intermediate home gardeners seeking an easy-to-use, visual learning platform, social area.
 
 **Key Values:**
@@ -198,6 +198,12 @@ Mobile-optimised carousels for browsing featured gardens and plants.
 Certain software tools for web development may need to be changed or replaced due to political, legal, or geopolitical reasons. These reasons can include sanctions, data sovereignty laws, security concerns, or vendor restrictions. Here's an overview of examples and types of software that could be affected: Below is a list of the software used in Roots and Shoots that might need to be considered in the future depending on requirments. 
 
 ## Code
+
+[HTML 5](https://www.w3schools.com/html/)
+- HTML for the semantic element of the website
+
+[CSS 3](https://www.w3schools.com/css/)
+- CSS for styling the website
   
 [FlatPickR](https://flatpickr.js.org/)
 - For use with the DatePicker on the site.
@@ -209,11 +215,12 @@ Certain software tools for web development may need to be changed or replaced du
 - Defined Libraries for a responsive site.
 
 [Lightbox](https://trvswgnr.github.io/bs5-lightbox/#installation)
-- Gallery viewer
+- Gallery viewer for gallery.html
 
 ## Text
 
-- [Google](https://fonts.google.com/)
+[Google](https://fonts.google.com/)
+- Google fonts for a customised look 
 
 ## Media
 
@@ -231,7 +238,7 @@ Certain software tools for web development may need to be changed or replaced du
 - Web browser.
 
 **Git (Version 2.49.)**
-- Track changes, manage repository.
+- Track changes, manage repository and host website.
 
 **GIMP (version 3.0)**
 - Photo editing software.
