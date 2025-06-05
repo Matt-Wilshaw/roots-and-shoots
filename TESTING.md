@@ -72,9 +72,17 @@ Site is now CSS and HTML validated
 Lighthouse is an open-source, automated tool created by Google to analyse and improve the quality of web pages. It audits various aspects of a webpage, including performance, accessibility, SEO, 
 and progressive web app (PWA) practices, and generates a report with suggestions for improvement. - Google
 
+![Lighthouse results](/testing-images/lightHouse_results.jpg)
+
+Test results are all green, no action required.
+
 # autoprefixer for other browsers
 
+style.css amended according to autoprefixer
+
 # Screen Reader
+
+Tested using Windows Narrator, no issue found.
 
 # Bowser Compatibility
 
@@ -125,8 +133,6 @@ and progressive web app (PWA) practices, and generates a report with suggestions
 ![Plants text area is different heights on different screens.](/testing-images/plants_scaling_issue.jpg)
 
 ![Plants text area is different heights on different screens resolution.](/testing-images/plants_scaling_resolved.jpg.jpg)
-
-
 
 
 **Defects Unresolved**
@@ -267,10 +273,6 @@ As a first-time visitor, I want the site to look visually appealing and match th
 - [Done] Ensure logo is displayed and scaled properly  
 - [Done] Check color contrast for accessibility  
 - [Done] Validate font consistency and layout spacing
-
-
-
-
 
 
 **BootStrap testing**
