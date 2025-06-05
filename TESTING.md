@@ -276,5 +276,3 @@ As a first-time visitor, I want the site to look visually appealing and match th
 - [Done] Check color contrast for accessibility  
 - [Done] Validate font consistency and layout spacing
 
-
-**BootStrap testing**
