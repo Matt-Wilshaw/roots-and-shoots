@@ -17,18 +17,22 @@ Designed using Jesse James Garrett’s *Five Planes of User Experience*, the sit
   - [Structure](#structure)
   - [Skeleton](#skeleton)
 - [Wireframes](#wireframes)
+  - [Phone](#phone)
+  - [Tablet](#tablet)
+  - [Desktop](#desktop)
+  - [Colour Pallet](#colour-pallet)
   - [Surface](#surface)
   - [Accessibility](#accessibility)
   - [Target Audience](#target-audience)
   - [Hardware Used](#hardware-used)
   - [Software Used](#software-used)
-- [Credits](#credits)
   - [Code](#code)
   - [Text](#text)
   - [Media](#media)
+- [Credits](#credits)
   - [Images](#images)
   - [Knowledge Base](#knowledge-base)
-  - [Deployement](#deployement)
+- [Deployement](#deployement)
   - [How to Run This Project Locally](#how-to-run-this-project-locally)
     - [Prerequisites](#prerequisites)
     - [Getting Started](#getting-started)
@@ -103,7 +107,9 @@ While your primary font can be eye-catching and unique, your secondary font shou
 
 # Wireframes
 
-**Phone**
+Wireframes are visual blueprints used in the early stages of web design to outline the basic structure and layout of a website or web application. They are simple, often black-and-white representations that focus on structure, functionality, and user experience, not on color, typography, or detailed visuals.
+
+## Phone
 
 ![index.html](/readme-images/images_phone/index.jpg)
 ![plants.html](/readme-images/images_phone/plants.jpg)
@@ -113,7 +119,7 @@ While your primary font can be eye-catching and unique, your secondary font shou
 ![booking.html](/readme-images/images_phone/join.jpg)
 ![success.html](/readme-images/images_phone/success.jpg)
 
-**Tablet**
+## Tablet
 
 ![index.html](/readme-images/images_tablet/index.jpg)
 ![plants.html](/readme-images/images_tablet/plants.jpg)
@@ -124,7 +130,7 @@ While your primary font can be eye-catching and unique, your secondary font shou
 ![success.html](/readme-images/images_tablet/success.jpg)
 
 
-**Desktop design**
+## Desktop
 
 ![index.html](/readme-images/images_desktop/index.jpg)
 ![plants.html](/readme-images/images_desktop/plants.jpg)
@@ -134,7 +140,12 @@ While your primary font can be eye-catching and unique, your secondary font shou
 ![booking.html](/readme-images/images_desktop/join.jpg)
 ![success.html](/readme-images/images_desktop/success.jpg)
 
+## Colour Pallet
 
+This is an example of the range of colours that will be considered for the theme of the website.
+Neutral  colours that are relatedable to nature
+
+![Colour pallet theme of the website](/readme-images/picsart%20colour%20picker.gif)
 
 ---
 ## Surface
@@ -149,7 +160,7 @@ Clean, calming aesthetic with soft shadows.
 
 Responsive, high-quality garden and plant photography.
 
-Mobile-optimised carousels for browsing featured gardens.
+Mobile-optimised carousels for browsing featured gardens and plants.
 
 ---
 
@@ -183,6 +194,31 @@ Mobile-optimised carousels for browsing featured gardens.
 - 1TB SSD
 
 ## Software Used
+
+Certain software tools for web development may need to be changed or replaced due to political, legal, or geopolitical reasons. These reasons can include sanctions, data sovereignty laws, security concerns, or vendor restrictions. Here's an overview of examples and types of software that could be affected: Below is a list of the software used in Roots and Shoots that might need to be considered in the future depending on requirments. 
+
+## Code
+  
+[FlatPickR](https://flatpickr.js.org/)
+- For use with the DatePicker on the site.
+
+[Font Awesome](https://fontawesome.com/)
+- Icons that are used for the website.
+
+[BootStrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- Defined Libraries for a responsive site.
+
+[Lightbox](https://trvswgnr.github.io/bs5-lightbox/#installation)
+- Gallery viewer
+
+## Text
+
+- [Google](https://fonts.google.com/)
+
+## Media
+
+**Google Maps**
+- Interactive Map.
 
 **Microsoft Windows (11 Home edition(ver 10.0.26100))**
 - Operation system. 
@@ -221,34 +257,12 @@ Mobile-optimised carousels for browsing featured gardens.
 [Picsart](https://tools.picsart.com/color/palette-generator/)
 - Colour palette hex generator
 
+[Am I Responsive](/https://amiresponsive.co.uk/)
+- website testing for different devices
+
 # Credits
 
-## Code
-  
-[FlatPickR](https://flatpickr.js.org/)
-- For use with the DatePicker on the site.
-
-[Font Awesome](https://fontawesome.com/)
-- Icons that are used for the website.
-
-[BootStrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-- Defined Libraries for a responsive site.
-
-[Lightbox](https://trvswgnr.github.io/bs5-lightbox/#installation)
-- Gallery viewer
-
-## Text
-
-- [Google](https://fonts.google.com/)
-
-
-## Media
-
-**Google Maps**
-- Interactive Map.
-
 ## Images
-
 - [Free-Images](https://www.freeimages.com/)
 - [pixabay](https://pixabay.com/)
 - [Pexels](https://www.pexels.com/)
@@ -256,7 +270,6 @@ Mobile-optimised carousels for browsing featured gardens.
 - [Canva](https://www.canva.com/)
 
 ## Knowledge Base
-
 - Code Institute, slides and videos.
 - [stackoverflow](https://stackoverflow.com/)
 - [YouTube](https://youtube.com/)
@@ -265,19 +278,16 @@ Mobile-optimised carousels for browsing featured gardens.
 ---
 
 **Github pages**
-
 - Roots and Shoots live site
 
  [Roots-and-Shoots](https://matt-wilshaw.github.io/roots-and-shoots/)
 
-## Deployement
+# Deployement
 
 ## How to Run This Project Locally
-
 Follow these steps to clone and run the project on your local machine.
 
 ### Prerequisites
-
 Make sure you have the following installed:
 
 - [Git](https://git-scm.com/downloads)
@@ -290,7 +300,6 @@ Make sure you have the following installed:
 ### Getting Started
 
 #### 1. Clone the Repository
-
 - Open your terminal and run:
 
 
@@ -301,7 +310,6 @@ git clone https://github.com/your-username/your-repo-name.git
 Replace your-username and your-repo-name with your actual GitHub username and repository name.
 
 #### 2. Open the Project in VS Code
-
 
 code .
 
