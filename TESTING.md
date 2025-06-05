@@ -93,6 +93,11 @@ Tested using Windows Narrator, no issue found.
 - Safari
 - Firefox
 
+# Device Compatibility
+
+![Am I Responsive](/testing-images/amiresponsive.jpg)
+- Testing cross platform for usability, no issues found.
+
 ## Bugs and know issues
 
 **Defects Fixed**
@@ -134,7 +139,7 @@ Tested using Windows Narrator, no issue found.
 
 ![Plants text area is different heights on different screens.](/testing-images/plants_scaling_issue.jpg)
 
-![Plants text area is different heights on different screens resolution.](/testing-images/plants_scaling_resolved.jpg.jpg)
+![Plants text area is different heights on different screens resolution.](/testing-images/plants_scaling_resolved.jpg)
 
 6. Modal shift page left when clicking on an image.
 
@@ -152,8 +157,6 @@ Subscribe.html
 
 
 # User Acceptance Stories – Roots and Shoots Website
-
----
 
 ## 1. Subscribe to Newsletter
 

@@ -225,26 +225,27 @@ Certain software tools for web development may need to be changed or replaced du
 ## Media
 
 **Google Maps**
-- Interactive Map.
+- Interactive Map
 
 **Microsoft Windows (11 Home edition(ver 10.0.26100))**
-- Operation system. 
+- Operation system 
 
 **vsCode (and extensions)**
-- Live Server.
-- Markdown All in One.
+- Live Server
+- Markdown All in One
+- Beautify
 
 **Google Chrome (Version 131.0.6778.265)**
-- Web browser.
+- Web browser
 
 **Git (Version 2.49.)**
-- Track changes, manage repository and host website.
+- Track changes, manage repository and host website
 
 **GIMP (version 3.0)**
-- Photo editing software.
+- Photo editing software
 
 **Wave**
-- Google Chrome extension - Accessibility Evaluation tool.
+- Google Chrome extension - Accessibility Evaluation tool
 
 [WebAim](https://webaim.org/)
 - Contrast Checker for the website
