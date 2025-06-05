@@ -33,6 +33,7 @@ Designed using Jesse James Garrett’s *Five Planes of User Experience*, the sit
     - [Getting Started](#getting-started)
       - [1. Clone the Repository](#1-clone-the-repository)
       - [2. Open the Project in VS Code](#2-open-the-project-in-vs-code)
+- [Wireframes](#wireframes)
   
 ---
 # Introduction
@@ -228,16 +229,13 @@ Mobile-optimised carousels for browsing featured gardens.
 - [Gardeners-World](https://www.gardenersworld.com/)
 ---
 
-## Deployement
-
-**steps taken**
-
 **Github pages**
 
+- Roots and Shoots live site
 
+ [Roots-and-Shoots](https://matt-wilshaw.github.io/roots-and-shoots/)
 
-
-
+## Deployement
 
 ## How to Run This Project Locally
 
@@ -281,6 +279,19 @@ Right-click index.html → Open with Live Server
 
 Or click the "Go Live" button in the bottom-right corner of VS Code
 
+
+# Wireframes
+
+
+
+**Desktop design**
+
+- [index.html](/readme-images/Images_index/index.png)
+- [plants.html](/readme-images/Images_index/plants.png)
+- [events.html](/readme-images/Images_index/events.png)
+- [gallery.html](/readme-images/Images_index/gallery.png)
+- [booking.html](/readme-images/Images_index/booking.png)
+- [success.html](/readme-images/Images_index/success.png)
 
 
 
