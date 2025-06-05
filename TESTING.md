@@ -61,7 +61,7 @@ Further research assisted with the below fix to line 345
 
 ![Validation of success.html](/testing-images/success_validation.jpg)
 
-# Summary
+## Summary
 
 Minor tweaks to formatting and the addition of closing tags have been added.
 Site is now CSS and HTML validated
@@ -85,6 +85,8 @@ style.css amended according to autoprefixer
 Tested using Windows Narrator, no issue found.
 
 # Bowser Compatibility
+
+![powerMapper](/testing-images/powerMapper.jpg)
 
 - Edge
 - Chrome
