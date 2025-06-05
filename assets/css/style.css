@@ -216,6 +216,11 @@ footer h4 {
   font-family: var(--secondary-font);
 }
 
+/* Social links */
+.social-links > a {
+  margin-right: 16px;
+}
+
 /* Controls how quickly the icons transistion is size for smoothness */
 footer .social-links i {
   -webkit-transition: -webkit-transform 0.2s ease;
