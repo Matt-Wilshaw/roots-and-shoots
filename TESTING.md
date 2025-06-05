@@ -124,6 +124,8 @@ and progressive web app (PWA) practices, and generates a report with suggestions
 
 ![Plants text area is different heights on different screens.](/testing-images/plants_scaling_issue.jpg)
 
+![Plants text area is different heights on different screens resolution.](/testing-images/plants_scaling_resolved.jpg.jpg)
+
 
 
 
