@@ -106,20 +106,22 @@ and progressive web app (PWA) practices, and generates a report with suggestions
 ![Subscription testing image](/testing-images/subscription_testing.jpg)
 
 3. Burger menu subscibe button is too wide on smaller screens.
-- Controlled by the following code
-- <li class="nav-item">
-            <a href="subscribe.html" class="btn nav-link custom-button-filled ms-lg-3">Subscribe</a>
-          </li>
+
+![Burger menu subscibe button too wide](/testing-images/navBar_changes.jpg)
+
 -  Added the following -nav-spaced ms-auto- to the navBar class to allign it right when burger menu is expanded. Also removed redundant ms-lg-3. Made changes to all pages.
--   <li class="nav-item nav-spaced ms-auto">
-            <a href="subscribe.html" class="btn nav-link custom-button-filled">Subscribe</a>
-          </li>
+  
+![navBar code changes](/testing-images/navBar_code_changes.jpg)
+
+4. Nested Google maps are not responsive on smaller screens.
+
+![Nested Google maps are not responsive on smaller screens](/testing-images/google_maps_responsive.jpg)
 
 
 **Defects Unresolved**
 
 Subscribe.html
--You are able to put an unrealistic DOB into the field
+-You are able to put an unrealistic DOB into the field, this is outside of the scope of this project so it wont be resolved.
 
 
 # User Acceptance Stories – Roots and Shoots Website
