@@ -37,7 +37,7 @@ h2,
 h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
-  
+
 }
 
 #header {
@@ -60,14 +60,18 @@ h3 {
 .card-footer {
   font-weight: bold;
   color: var(--highlight-color);
-  background-color: transparent;
+  /* Pushes the footer to the bottom of the card-body */
+  margin-top: auto;
+  /* Ensure footer spans full width */
+  width: 100%;
+  
 }
 
 /* Stretched to fill the full height of its container and to be responsive(flex)*/
 .card {
   height: 100%;
   display: flex;
- /* Aligns all its child elements image and .card-body in a column. */
+  /* Aligns all its child elements image and .card-body in a column. */
   flex-direction: column;
 }
 
@@ -78,7 +82,17 @@ h3 {
 
 /* Min height for the card text */
 .card-text {
+  /* flex-grow: 1 allows the paragraph to take up all available space, pushing down the footer. */
   min-height: 100px;
+  
+  /* Set a reasonable min-height, but the flex-grow will handle distribution for varied text. */  
+  flex-grow: 1;
+  
+  /* Increased from 100px to give more room */
+  min-height: 120px;
+  
+  /* Add some space below the paragraph before the footer */
+  margin-bottom: 1rem;  
 }
 
 /* Styling for the main paragraph on index.html */
@@ -190,33 +204,35 @@ footer .social-links i:hover {
 
 /* Responsive Map Styles */
 .map-responsive {
-    overflow: hidden;
-    /* Establishes a new positioning context for absolutely positioned children */
-    position: relative;
-    /* This creates a 4:3 aspect ratio (height is 75% of width).*/
-    padding-bottom: 75%;
-    height: 0; /* Ensures the height is controlled by padding-bottom */
-    border-radius: 8px; /* Adds rounded edges to your maps */
+  overflow: hidden;
+  /* Establishes a new positioning context for absolutely positioned children */
+  position: relative;
+  /* This creates a 4:3 aspect ratio (height is 75% of width).*/
+  padding-bottom: 75%;
+  height: 0;
+  /* Ensures the height is controlled by padding-bottom */
+  border-radius: 8px;
+  /* Adds rounded edges to your maps */
 }
 
 .map-responsive iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0; /* Removes the iframe's default border */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  /* Removes the iframe's default border */
 }
 
 
 /*Media queries for greater control at different resolutions */
 @media (min-width: 768px) {
 
-    /* Make all service cards the same height for consistency */
-     #services .card-body { 
-        min-height: 190px; 
-    }
+  /* Make all service cards the same height for consistency */
+  #services .card-body {
+    min-height: 190px;
+  }
 
-    
+
 }
-

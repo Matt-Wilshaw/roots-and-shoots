@@ -118,6 +118,13 @@ and progressive web app (PWA) practices, and generates a report with suggestions
 ![Nested Google maps are not responsive on smaller screens](/testing-images/google_maps_responsive.jpg)
 
 - Added h-100 d-flex flex-column with flex-grow-1 on the paragraph to make the text fill out the available space. 
+- Also added map-responsive class with custom styling.
+
+5. Plants text area is different heights on different screens.
+
+![Plants text area is different heights on different screens.](/testing-images/plants_scaling_issue.jpg)
+
+
 
 
 **Defects Unresolved**
