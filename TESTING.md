@@ -30,6 +30,10 @@ and ensures consistent display across different browsers.  - W3C
 
 ![Validation of index.html](/testing-images/index_validation.jpg)
 
+- all issues resolved
+
+![Validation of index.html](/testing-images/index_passed.jpg)
+
 ## plants.html
 
 ![Validation of plants.html](/testing-images/plants_validation.jpg)
@@ -40,22 +44,41 @@ Unresolved validation, changing of these suggested elements breaks the layout of
 
 Further research assisted with the below fix to line 345, missing div tag.
 
+- All issues resolved
+
+![Validation of plants.html](/testing-images/plants_passed.jpg)
 
 ## events.html
 
 ![Validation of events.html](/testing-images/events_validation.jpg)
 
+- All issues resolved
+
+![Validation of events.html](/testing-images/events_passed.jpg)
+
 ## gallery.html
 
 ![Validation of gallery.html](/testing-images/gallery_validation.jpg)
+
+- All issues resolved
+
+![Validation of gallery.html](/testing-images/gallery_passed.jpg)
 
 ## subscribe.html
 
 ![Validation of subscribe.html](/testing-images/subscribe_validation.jpg)
 
+- All issues resolved
+
+![Validation of subscribe.html](/testing-images/subscribe_passed.jpg)
+
 ## success.html
 
 ![Validation of success.html](/testing-images/success_validation.jpg)
+
+- All issues resolved
+
+![Validation of success.html](/testing-images/success_passed.jpg)
 
 ## Summary
 
@@ -148,10 +171,23 @@ Added the following code to stop the shift of the Modal
 
 ![Modal shift page left when clicking on an image.](/testing-images/modal_issue_resolved.jpg)
 
+7. Back to Home button was styled incorrectly on success.html
+
+![Back to Home button was styled incorrectly on success.html](/testing-images/incorrect_btn_styling.jpg)
+
+- Custom button class added.
+
+
 **Defects Unresolved**
 
-Subscribe.html
--You are able to put an unrealistic DOB into the field, this is outside of the scope of this project so it wont be resolved.
+subscribe.html
+- You are able to put an unrealistic DOB into the field, this is outside of the scope of this project so it wont be resolved.
+
+subscribe.html
+
+- You can enter any length of number, validation happens on only 1 digit.
+
+![Back to Home button was styled incorrectly on success.html](/testing-images/number_length.jpg.jpg)
 
 
 # User Acceptance Stories – Roots and Shoots Website
