@@ -95,8 +95,11 @@ Tested using Windows Narrator, no issue found.
 
 # Device Compatibility
 
+![Am I Responsive]([/testing-images/amiresponsive.jpg](https://ui.dev/amiresponsive?url=https://matt-wilshaw.github.io/roots-and-shoots/))
+
 ![Am I Responsive](/testing-images/amiresponsive.jpg)
 - Testing cross platform for usability, no issues found.
+
 
 ## Bugs and know issues
 
@@ -148,7 +151,6 @@ Tested using Windows Narrator, no issue found.
 Added the following code to stop the shift of the Modal
 
 ![Modal shift page left when clicking on an image.](/testing-images/modal_issue_resolved.jpg)
-
 
 **Defects Unresolved**
 
@@ -286,4 +288,30 @@ As a first-time visitor, I want the site to look visually appealing and match th
 - [Done] Ensure logo is displayed and scaled properly  
 - [Done] Check color contrast for accessibility  
 - [Done] Validate font consistency and layout spacing
+
+# Further testing
+
+# Roots and Shoot Website – Testing Table
+
+| **Test Case ID** | **Page / Feature**        | **Test Description**                          | **Expected Result**                                   | **Status** | **Notes / Bugs Found**              |
+|------------------|---------------------------|-----------------------------------------------|-------------------------------------------------------|------------|-------------------------------------|
+| TC001            | Home (index.html)         | Load home page                                | Page loads within 3 seconds, no visual glitches       | Pass/Fail  |                                     |
+| TC002            | Navigation Bar            | Click “Plants” link                           | Navigates to **plants.html**                          | Pass/Fail  |                                     |
+| TC003            | Navigation Bar            | Click “Events” link                           | Navigates to **events.html**                          | Pass/Fail  |                                     |
+| TC004            | Navigation Bar            | Click “Gallery” link                          | Navigates to **gallery.html**                         | Pass/Fail  |                                     |
+| TC005            | Navigation Bar            | Click “Subscribe” link                        | Navigates to **subscribe.html**                       | Pass/Fail  |                                     |
+| TC006            | Plants Page               | Check content loads                           | Plant information loads and images display properly   | Pass/Fail  |                                     |
+| TC007            | Events Page               | View event list / calendar                    | Events display correctly with date/time info          | Pass/Fail  |                                     |
+| TC008            | Gallery Page              | View and zoom images                          | All images load, zoom or modal works if enabled       | Pass/Fail  |                                     |
+| TC009            | Subscribe Page            | Submit form with valid email                  | Redirects to **success.html**                         | Pass/Fail  |                                     |
+| TC010            | Subscribe Page            | Submit form with invalid email                | Validation error shown                                | Pass/Fail  |                                     |
+| TC011            | Success Page              | Load after successful subscription            | Shows thank-you or confirmation message               | Pass/Fail  |                                     |
+| TC012            | 404 Error Page            | Visit non-existent page (e.g., /fake.html)    | Custom 404 page is displayed                          | Pass/Fail  |                                     |
+| TC013            | Mobile Responsiveness     | Test across mobile and tablet devices         | Layout adapts correctly on all screen sizes           | Pass/Fail  |                                     |
+| TC014            | Load Speed                | Test performance (Lighthouse)                 | Page loads < 3s, score > 80%                          | Pass/Fail  |                                     |
+| TC015            | Accessibility (A11y)      | Use screen reader, keyboard nav, alt text     | Site is fully navigable and readable                  | Pass/Fail  |                                     |
+| TC016            | Broken Links              | Check all site links manually or with crawler | No broken or dead links                               | Pass/Fail  |                                     |
+| TC017            | SEO & Meta Tags           | Inspect page head tags                        | All pages have proper title, meta description, etc.   | Pass/Fail  |                                     |
+| TC018            | Security                  | Inspect for HTTPS, input sanitization         | HTTPS active, no XSS/SQL injection possible           | Pass/Fail  |                                     |
+
 

@@ -42,6 +42,12 @@ Designed using Jesse James Garrett’s *Five Planes of User Experience*, the sit
 ---
 # Introduction
 
+Please find the live demo link here.
+
+[Roots and Shoots](https://matt-wilshaw.github.io/roots-and-shoots/)
+
+![Roots and Shoots](/readme-images/site_preview.gif)
+
 ##  Strategy
 
 **Purpose:**
@@ -285,11 +291,6 @@ Certain software tools for web development may need to be changed or replaced du
 - [Gardeners-World](https://www.gardenersworld.com/)
 ---
 
-**Github pages**
-- Roots and Shoots live site
-
- [Roots-and-Shoots](https://matt-wilshaw.github.io/roots-and-shoots/)
-
 # Deployement
 
 ## How to Run This Project Locally
@@ -309,7 +310,6 @@ Make sure you have the following installed:
 
 #### 1. Clone the Repository
 - Open your terminal and run:
-
 
 git clone https://github.com/your-username/your-repo-name.git
 
