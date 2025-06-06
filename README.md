@@ -38,6 +38,7 @@ Designed using Jesse James Garrett’s *Five Planes of User Experience*, the sit
     - [Getting Started](#getting-started)
       - [1. Clone the Repository](#1-clone-the-repository)
       - [2. Open the Project in VS Code](#2-open-the-project-in-vs-code)
+      - [3. Open live site hosted on GitHub](#3-open-live-site-hosted-on-github)
   
 ---
 # Introduction
@@ -319,16 +320,22 @@ Replace your-username and your-repo-name with your actual GitHub username and re
 
 #### 2. Open the Project in VS Code
 
-code .
+use a new terminal and enter code .
 
-If code doesn’t work, open the folder manually in VS Code.
+If code . doesn’t work, open the folder manually in VS Code.
 
 ** For Static HTML/CSS/JS Projects **
 You can open index.html directly in a browser or use Live Server:
 
 Right-click index.html → Open with Live Server
 
-Or click the "Go Live" button in the bottom-right corner of VS Code
+Or click the "Go Live" button in the bottom-right corner of VS Code if you have live server installed.
+
+#### 3. Open live site hosted on GitHub
+
+- [Roots and Shoots](https://matt-wilshaw.github.io/roots-and-shoots/)
+
+
 
 
 
