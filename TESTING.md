@@ -20,6 +20,8 @@ It helps you catch errors, improve browser compatibility, and write cleaner, mor
 
 The following 4 errors listed are out of the webdesingers control and therfore they have only been noted.
 
+![css validation](/testing-images/css_passed.jpg)
+
 # HTML validation
 
 HTML validation is used to check whether your HTML code follows the official standards and syntax rules defined by the W3C (World Wide Web Consortium). 
