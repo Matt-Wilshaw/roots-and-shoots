@@ -38,11 +38,11 @@
 
     <!-- Custom stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 
 <!-- Display Flex, direction to column layout that fills the full viewport height. 
 Footer stays at the bottom even if content is short, min 100% vertical height. -->
-
 <body class="d-flex flex-column min-vh-100">
 
     <!-- Navigation -->
@@ -83,6 +83,7 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
                 </div>
             </div>
         </nav>
+
     </header>
 
     <main>
@@ -91,13 +92,14 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
         <section id="subscription-form" class="container section">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-8">
+
                     <!-- <h2 class="display-6 fw-bold py-5">The Gallery</h2> -->
                     <h1 class="display-5 mt-4 mb-4 py-3 text-center ">Subscription</h1>
                     <p class="lead display-7 mb-5 custom-paragraph text-center">Sign up for our monthly newsletter.</p>
                     <form action="success.html" method="GET">
                         <div class="row">
 
-                            <!-- Name -->
+                            <!-- Name field-->
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="name" class="form-label">Name</label>
                                 <input class="form-control" id="name" name="name" type="text" required>
@@ -127,8 +129,7 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
                                 </div>
                             </div>
 
-
-                            <!-- Address -->
+                            <!-- Address field-->
                             <div class="col-12 mb-3">
                                 <label for="address" class="form-label">Address</label>
                                 <input class="form-control" id="address" name="address" type="text" required>
@@ -143,6 +144,7 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
                 </div>
             </div>
         </section>
+
     </main>
 
     <!-- Footer / contact section -->
@@ -180,6 +182,7 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
                 </div>
             </div>
         </div>
+
     </footer>
 
     <!-- Bootstrap JS script -->
@@ -191,6 +194,7 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
     <script>
+
         // Calculate today's date minus 4 years
         const today = new Date();
         const minAgeDate = new Date(today.getFullYear() - 4, today.getMonth(), today.getDate());
