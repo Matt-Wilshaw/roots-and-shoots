@@ -41,9 +41,6 @@ Designed using Jesse James Garrett’s *Five Planes of User Experience*, the sit
   - [Code](#code)
   - [Text](#text)
   - [Media](#media)
-- [Credits](#credits)
-  - [Images](#images)
-  - [Knowledge Base](#knowledge-base)
 - [Deployment](#deployment)
   - [How to Run This Project Locally](#how-to-run-this-project-locally)
     - [Prerequisites](#prerequisites)
@@ -51,6 +48,10 @@ Designed using Jesse James Garrett’s *Five Planes of User Experience*, the sit
       - [1. Clone the Repository](#1-clone-the-repository)
       - [2. Open the Project in VS Code](#2-open-the-project-in-vs-code)
       - [3. Open live site hosted on GitHub](#3-open-live-site-hosted-on-github)
+    - [Roots and Shoots](#roots-and-shoots-1)
+- [Credits](#credits)
+    - [Images](#images)
+    - [Knowledge Base](#knowledge-base)
   
 ---
 # Introduction
@@ -287,23 +288,6 @@ Certain software tools for web development may need to be changed or replaced du
 [Am I Responsive](/https://amiresponsive.co.uk/)
 - website testing for different devices
 
-# Credits
-
-## Images
-- [Free-Images](https://www.freeimages.com/)
-- [pixabay](https://pixabay.com/)
-- [Pexels](https://www.pexels.com/)
-- [StockVault](https://www.stockvault.net/)
-- [Canva](https://www.canva.com/)
-
-## Knowledge Base
-- Code Institute, slides and videos.
-- [stackoverflow](https://stackoverflow.com/)
-- [YouTube](https://youtube.com/)
-- [Wikipedia](https://en.wikipedia.org/)
-- [Gardeners-World](https://www.gardenersworld.com/)
----
-
 # Deployment
 
 ## How to Run This Project Locally
@@ -345,7 +329,26 @@ Or click the "Go Live" button in the bottom-right corner of VS Code if you have 
 
 #### 3. Open live site hosted on GitHub
 
-- [Roots and Shoots](https://matt-wilshaw.github.io/roots-and-shoots/)
+### [Roots and Shoots](https://matt-wilshaw.github.io/roots-and-shoots/)
+
+---
+
+# Credits
+
+### Images
+- [Free-Images](https://www.freeimages.com/)
+- [pixabay](https://pixabay.com/)
+- [Pexels](https://www.pexels.com/)
+- [StockVault](https://www.stockvault.net/)
+- [Canva](https://www.canva.com/)
+
+### Knowledge Base
+- Code Institute, slides and videos.
+- [stackoverflow](https://stackoverflow.com/)
+- [YouTube](https://youtube.com/)
+- [Wikipedia](https://en.wikipedia.org/)
+- [Gardeners-World](https://www.gardenersworld.com/)
+---
 
 
 
