@@ -5,9 +5,7 @@ Website testing is the process of evaluating a website to ensure it meets specif
 This document is also linked to a README.md on project specifics and other technical data such as running the site.
 [README.md](./README.md)
 
-## Validation Testing using W3C
-
-## CSS validation
+# CSS validation
 
 CSS validation is the process of checking your CSS code to ensure it follows the official syntax rules defined by the W3C (World Wide Web Consortium). 
 It helps you catch errors, improve browser compatibility, and write cleaner, more maintainable styles so that other developers can work on your code if required. - W3C
@@ -21,10 +19,6 @@ It helps you catch errors, improve browser compatibility, and write cleaner, mor
 - Removed unused font weight
 - Removed solid is not a border-radius value : 6px solid
 
-**Warnings not resolved**
-
-The following 4 errors listed are out of the web designers control as they are external items imported into the project, therefore they have only been noted.
-
 ![css validation](/testing-images/css_passed.jpg)
 
 # HTML validation
@@ -37,7 +31,7 @@ and ensures consistent display across different browsers.  - W3C
 
 ![Validation of index.html](/testing-images/index_validation.jpg)
 
-- all issues resolved
+- All issues resolved
 
 ![Validation of index.html](/testing-images/index_passed.jpg)
 
