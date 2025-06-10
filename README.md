@@ -29,9 +29,9 @@ Designed using Jesse James Garrett’s *Five Planes of User Experience*, the sit
   - [Structure](#structure)
   - [Skeleton](#skeleton)
 - [Wireframes](#wireframes)
-  - [Phone](#phone)
-  - [Tablet](#tablet)
-  - [Desktop](#desktop)
+- [Phone](#phone)
+- [Tablet](#tablet)
+- [Desktop](#desktop)
   - [Colour Pallet](#colour-pallet)
   - [Surface](#surface)
   - [Accessibility](#accessibility)
@@ -47,7 +47,7 @@ Designed using Jesse James Garrett’s *Five Planes of User Experience*, the sit
 - [Deployment](#deployment)
   - [How to Run This Project Locally](#how-to-run-this-project-locally)
     - [Prerequisites](#prerequisites)
-    - [Getting Started](#getting-started)
+  - [How to clone the repository.](#how-to-clone-the-repository)
       - [1. Clone the Repository](#1-clone-the-repository)
       - [2. Open the Project in VS Code](#2-open-the-project-in-vs-code)
       - [3. Open live site hosted on GitHub](#3-open-live-site-hosted-on-github)
@@ -122,7 +122,9 @@ While your primary font can be eye-catching and unique, your secondary font shou
 
 Wireframes are visual blueprints used in the early stages of web design to outline the basic structure and layout of a website or web application. They are simple, often black-and-white representations that focus on structure, functionality, and user experience, not on colour, typography, or detailed visuals.
 
-## Phone
+# Phone
+
+576px up to 768px screen size
 
 ![index.html](/readme-images/images_phone/index.jpg)
 ![plants.html](/readme-images/images_phone/plants.jpg)
@@ -132,7 +134,9 @@ Wireframes are visual blueprints used in the early stages of web design to outli
 ![booking.html](/readme-images/images_phone/join.jpg)
 ![success.html](/readme-images/images_phone/success.jpg)
 
-## Tablet
+# Tablet
+
+Minimum viewport width of 768px up to 992px
 
 ![index.html](/readme-images/images_tablet/index.jpg)
 ![plants.html](/readme-images/images_tablet/plants.jpg)
@@ -143,7 +147,9 @@ Wireframes are visual blueprints used in the early stages of web design to outli
 ![success.html](/readme-images/images_tablet/success.jpg)
 
 
-## Desktop
+# Desktop
+
+Viewport width of 992px or greater
 
 ![index.html](/readme-images/images_desktop/index.jpg)
 ![plants.html](/readme-images/images_desktop/plants.jpg)
@@ -313,7 +319,7 @@ Make sure you have the following installed:
 
 ---
 
-### Getting Started
+## How to clone the repository.
 
 #### 1. Clone the Repository
 - Open your terminal and run:
