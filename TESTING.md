@@ -1,8 +1,13 @@
-#Testing
+# Testing
 
-# Validation Testing using W3C
+Website testing is the process of evaluating a website to ensure it meets specified requirements, functions correctly, performs efficiently, is secure, and provides a positive user experience. It is a critical phase in the web development lifecycle, aiming to identify defects, errors, or missing functionalities before the website is launched or updated, ensuring a high-quality product for end-users. 
 
-# CSS validation
+This document is also linked to a README.md on project specifics and other technical data such as running the site.
+[README.md](./README.md)
+
+## Validation Testing using W3C
+
+## CSS validation
 
 CSS validation is the process of checking your CSS code to ensure it follows the official syntax rules defined by the W3C (World Wide Web Consortium). 
 It helps you catch errors, improve browser compatibility, and write cleaner, more maintainable styles so that other developers can work on your code if required. - W3C
@@ -18,7 +23,7 @@ It helps you catch errors, improve browser compatibility, and write cleaner, mor
 
 **Warnings not resolved**
 
-The following 4 errors listed are out of the webdesingers control and therfore they have only been noted.
+The following 4 errors listed are out of the web designers control as they are external items imported into the project, therefore they have only been noted.
 
 ![css validation](/testing-images/css_passed.jpg)
 
@@ -103,7 +108,7 @@ style.css amended according to autoprefixer
 
 # Screen Reader
 
-Tested using Windows Narrator, no issue found.
+Tested using Windows Narrator, no issues found.
 
 # Bowser Compatibility
 
@@ -116,7 +121,7 @@ Tested using Windows Narrator, no issue found.
 
 # Device Compatibility
 
-![Am I Responsive]([/testing-images/amiresponsive.jpg](https://ui.dev/amiresponsive?url=https://matt-wilshaw.github.io/roots-and-shoots/))
+Essential testing process to make sure that the website preforms well across multiple device types.
 
 ![Am I Responsive](/testing-images/amiresponsive.jpg)
 - Testing cross platform for usability, no issues found.
@@ -320,7 +325,7 @@ As a first-time visitor, I want the site to look visually appealing and match th
 - [Done] Apply consistent branding styles across all pages  
 - [Done] Use custom stylesheet (`style.css`) with theme variables  
 - [Done] Ensure logo is displayed and scaled properly  
-- [Done] Check color contrast for accessibility  
+- [Done] Check colours contrast for accessibility  
 - [Done] Validate font consistency and layout spacing
 
 # Further testing
