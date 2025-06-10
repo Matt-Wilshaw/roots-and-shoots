@@ -3,12 +3,24 @@
 
 **Roots and Shoots**, a responsive, garden-themed website built with **HTML**, **CSS**, **JavaScript**, **Bootstrap**, and **Flatpickr**. This site provides inspiration, education, and planning tools for budding gardeners of all ages, especially children, teens, and family learners.
 
+Please find the live demo link here.
+
+## [Roots and Shoots](https://matt-wilshaw.github.io/roots-and-shoots/)
+
+![Roots and Shoots](/readme-images/site_preview.gif)
+
+Please also find an extensive testing document for Root and Shoots below
+
+### [TESTING.md](/TESTING.md)
+
 ## Key Outline 
 
 Designed using Jesse James Garrett’s *Five Planes of User Experience*, the site integrates thoughtful content structure, friendly design, and intuitive interaction — all reinforced with a calming and contemporary visual style using **Lato** fonts and colours that are in keeping with the overall theme of the website.
 
 ## Table of Contents
 - [Roots and Shoots – Garden Website 🪴](#roots-and-shoots--garden-website-)
+  - [Roots and Shoots](#roots-and-shoots)
+    - [TESTING.md](#testingmd)
   - [Key Outline](#key-outline)
   - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
@@ -32,7 +44,7 @@ Designed using Jesse James Garrett’s *Five Planes of User Experience*, the sit
 - [Credits](#credits)
   - [Images](#images)
   - [Knowledge Base](#knowledge-base)
-- [Deployement](#deployement)
+- [Deployment](#deployment)
   - [How to Run This Project Locally](#how-to-run-this-project-locally)
     - [Prerequisites](#prerequisites)
     - [Getting Started](#getting-started)
@@ -42,12 +54,6 @@ Designed using Jesse James Garrett’s *Five Planes of User Experience*, the sit
   
 ---
 # Introduction
-
-Please find the live demo link here.
-
-[Roots and Shoots](https://matt-wilshaw.github.io/roots-and-shoots/)
-
-![Roots and Shoots](/readme-images/site_preview.gif)
 
 ##  Strategy
 
@@ -114,7 +120,7 @@ While your primary font can be eye-catching and unique, your secondary font shou
 
 # Wireframes
 
-Wireframes are visual blueprints used in the early stages of web design to outline the basic structure and layout of a website or web application. They are simple, often black-and-white representations that focus on structure, functionality, and user experience, not on color, typography, or detailed visuals.
+Wireframes are visual blueprints used in the early stages of web design to outline the basic structure and layout of a website or web application. They are simple, often black-and-white representations that focus on structure, functionality, and user experience, not on colour, typography, or detailed visuals.
 
 ## Phone
 
@@ -150,7 +156,7 @@ Wireframes are visual blueprints used in the early stages of web design to outli
 ## Colour Pallet
 
 This is an example of the range of colours that will be considered for the theme of the website.
-Neutral  colours that are relatedable to nature
+Neutral  colours that are relatable to nature
 
 ![Colour pallet theme of the website](/readme-images/picsart%20colour%20picker.gif)
 
@@ -202,7 +208,7 @@ Mobile-optimised carousels for browsing featured gardens and plants.
 
 ## Software Used
 
-Certain software tools for web development may need to be changed or replaced due to political, legal, or geopolitical reasons. These reasons can include sanctions, data sovereignty laws, security concerns, or vendor restrictions. Here's an overview of examples and types of software that could be affected: Below is a list of the software used in Roots and Shoots that might need to be considered in the future depending on requirments. 
+Certain software tools for web development may need to be changed or replaced due to political, legal, or geopolitical reasons. These reasons can include sanctions, data sovereignty laws, security concerns, or vendor restrictions. Here's an overview of examples and types of software that could be affected: Below is a list of the software used in Roots and Shoots that might need to be considered in the future depending on requirements. 
 
 ## Code
 
@@ -258,7 +264,7 @@ Certain software tools for web development may need to be changed or replaced du
 - Contrast Checker for the website
 
 **Snipping Tool on Windows**
-- Snipping inmages out to use in this project.
+- Snipping images out to use in this project when needed.
 
 [W3C](https://validator.w3.org/)
 - HTML validation
@@ -292,7 +298,7 @@ Certain software tools for web development may need to be changed or replaced du
 - [Gardeners-World](https://www.gardenersworld.com/)
 ---
 
-# Deployement
+# Deployment
 
 ## How to Run This Project Locally
 Follow these steps to clone and run the project on your local machine.
