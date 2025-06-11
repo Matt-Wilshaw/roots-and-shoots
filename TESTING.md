@@ -23,7 +23,7 @@ This document is also linked to a README.md on project specifics and other techn
 - [Screen Reader](#screen-reader)
 - [Bowser Compatibility](#bowser-compatibility)
 - [Device Compatibility](#device-compatibility)
-  - [Bugs and know issues in development](#bugs-and-know-issues-in-development)
+- [Bugs and know issues in development](#bugs-and-know-issues-in-development)
 - [User Acceptance Stories – Roots and Shoots Website](#user-acceptance-stories--roots-and-shoots-website)
   - [1. Subscribe to Newsletter](#1-subscribe-to-newsletter)
   - [2. Responsive Navigation](#2-responsive-navigation)
@@ -152,7 +152,7 @@ Essential testing process to make sure that the website preforms well across mul
 - Testing cross platform for usability, no issues found.
 
 
-## Bugs and know issues in development 
+# Bugs and know issues in development 
 
 **Defects Fixed**
 
