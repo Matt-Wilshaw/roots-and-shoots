@@ -28,14 +28,15 @@ Designed using Jesse James Garrett’s *Five Planes of User Experience*, the sit
   - [Scope](#scope)
   - [Structure](#structure)
   - [Skeleton](#skeleton)
-- [Wireframes](#wireframes)
-- [Phone](#phone)
-- [Tablet](#tablet)
-- [Desktop](#desktop)
+- [Wireframes and design](#wireframes-and-design)
+  - [Phone](#phone)
+  - [Tablet](#tablet)
+  - [Desktop](#desktop)
   - [Colour Pallet](#colour-pallet)
   - [Surface](#surface)
-  - [Accessibility](#accessibility)
-  - [Target Audience](#target-audience)
+- [Accessibility](#accessibility)
+- [Target Audience](#target-audience)
+- [Technology](#technology)
   - [Hardware Used](#hardware-used)
   - [Software Used](#software-used)
   - [Code](#code)
@@ -119,11 +120,11 @@ While your primary font can be eye-catching and unique, your secondary font shou
 -Use for: Paragraphs, guides, educational text.
 - fallback, serif.
 
-# Wireframes
+# Wireframes and design
 
 Wireframes are visual blueprints used in the early stages of web design to outline the basic structure and layout of a website or web application. They are simple, often black-and-white representations that focus on structure, functionality, and user experience, not on colour, typography, or detailed visuals.
 
-# Phone
+## Phone
 
 576px up to 768px screen size
 
@@ -135,7 +136,7 @@ Wireframes are visual blueprints used in the early stages of web design to outli
 ![booking.html](/readme-images/images_phone/join.jpg)
 ![success.html](/readme-images/images_phone/success.jpg)
 
-# Tablet
+## Tablet
 
 Minimum viewport width of 768px up to 992px
 
@@ -148,7 +149,7 @@ Minimum viewport width of 768px up to 992px
 ![success.html](/readme-images/images_tablet/success.jpg)
 
 
-# Desktop
+## Desktop
 
 Viewport width of 992px or greater
 
@@ -184,7 +185,7 @@ Mobile-optimised carousels for browsing featured gardens and plants.
 
 ---
 
-## Accessibility
+# Accessibility
 
 **Accessibility is a priority to ensure all users, including those with disabilities, can easily use and enjoy the site:**
 
@@ -196,7 +197,7 @@ Mobile-optimised carousels for browsing featured gardens and plants.
 
 ---
 
-## Target Audience
+# Target Audience
 
 - **Age Range:** Children (4+), Teens (up to 17), Families, and Educators.
 - Beginner and intermediate home gardeners seeking an easy-to-use, visual learning platform, social area.
@@ -205,6 +206,8 @@ Mobile-optimised carousels for browsing featured gardens and plants.
 - Education through interaction within the website.
 - Joy of plants and care using images and text.
 - Eco-conscious, reusing materials and identifying ways to grow plants for free.
+
+# Technology
 
 ## Hardware Used
 
