@@ -5,7 +5,38 @@ Website testing is the process of evaluating a website to ensure it meets specif
 This document is also linked to a README.md on project specifics and other technical data such as running the site.
 [README.md](./README.md)
 
-# CSS validation
+# Table of Contents
+- [Testing](#testing)
+- [Table of Contents](#table-of-contents)
+  - [CSS validation](#css-validation)
+  - [style.css](#stylecss)
+- [HTML validation](#html-validation)
+  - [index.html](#indexhtml)
+  - [plants.html](#plantshtml)
+  - [events.html](#eventshtml)
+  - [gallery.html](#galleryhtml)
+  - [subscribe.html](#subscribehtml)
+  - [success.html](#successhtml)
+  - [Summary](#summary)
+- [Lighthouse](#lighthouse)
+- [autoprefixer for other browsers](#autoprefixer-for-other-browsers)
+- [Screen Reader](#screen-reader)
+- [Bowser Compatibility](#bowser-compatibility)
+- [Device Compatibility](#device-compatibility)
+  - [Bugs and know issues in development](#bugs-and-know-issues-in-development)
+- [User Acceptance Stories – Roots and Shoots Website](#user-acceptance-stories--roots-and-shoots-website)
+  - [1. Subscribe to Newsletter](#1-subscribe-to-newsletter)
+  - [2. Responsive Navigation](#2-responsive-navigation)
+  - [3. Date of Birth Validation](#3-date-of-birth-validation)
+  - [4. Social Media Links](#4-social-media-links)
+  - [5. Accessibility and Keyboard Navigation](#5-accessibility-and-keyboard-navigation)
+  - [6. Form Validation Errors](#6-form-validation-errors)
+  - [7. Custom Styling and Branding](#7-custom-styling-and-branding)
+- [Further testing](#further-testing)
+- [Roots and Shoot Website – Testing Table final](#roots-and-shoot-website--testing-table-final)
+
+
+## CSS validation
 
 CSS validation is the process of checking your CSS code to ensure it follows the official syntax rules defined by the W3C (World Wide Web Consortium). 
 It helps you catch errors, improve browser compatibility, and write cleaner, more maintainable styles so that other developers can work on your code if required. - W3C
@@ -188,7 +219,7 @@ subscribe.html
 
 - You can enter any length of number, validation happens on only 1 digit.
 
-![Back to Home button was styled incorrectly on success.html](/testing-images/number_length.jpg.jpg)
+![Back to Home button was styled incorrectly on success.html](/testing-images/number_length.jpg)
 
 
 # User Acceptance Stories – Roots and Shoots Website
