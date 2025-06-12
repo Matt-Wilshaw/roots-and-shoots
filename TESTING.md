@@ -207,7 +207,7 @@ Added the following code to stop the shift of the Modal
 
 ![Back to Home button was styled incorrectly on success.html](/testing-images/incorrect_btn_styling.jpg)
 
-- Custom button class added.
+- Custom button class added to Back to Home button that was used for the Subscribe buton.
 
 8. Arrows on index.html are hard to read
 
