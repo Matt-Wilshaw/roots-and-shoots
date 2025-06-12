@@ -30,8 +30,29 @@ Designed using Jesse James Garrett’s *Five Planes of User Experience*, the sit
   - [Skeleton](#skeleton)
 - [Wireframes and design](#wireframes-and-design)
   - [Phone](#phone)
+    - [index.html](#indexhtml)
+    - [plants.html](#plantshtml)
+    - [events.html](#eventshtml)
+    - [gallery.html](#galleryhtml)
+    - [about.html](#abouthtml)
+    - [booking.html](#bookinghtml)
+    - [success.html](#successhtml)
   - [Tablet](#tablet)
+    - [index.html](#indexhtml-1)
+    - [plants.html](#plantshtml-1)
+    - [events.html](#eventshtml-1)
+    - [gallery.html](#galleryhtml-1)
+    - [about.html](#abouthtml-1)
+    - [booking.html](#bookinghtml-1)
+    - [success.html](#successhtml-1)
   - [Desktop](#desktop)
+    - [index.html](#indexhtml-2)
+    - [plants.html](#plantshtml-2)
+    - [events.html](#eventshtml-2)
+    - [gallery.html](#galleryhtml-2)
+    - [about.html](#abouthtml-2)
+    - [booking.html](#bookinghtml-2)
+    - [success.html](#successhtml-2)
   - [Colour Pallet](#colour-pallet)
   - [Surface](#surface)
 - [Accessibility](#accessibility)
@@ -126,39 +147,57 @@ Wireframes are visual blueprints used in the early stages of web design to outli
 
 ## Phone
 
-576px up to 768px screen size
-
+- 576px up to 768px screen size
+### index.html
 ![index.html](/readme-images/images_phone/index.jpg)
+### plants.html
 ![plants.html](/readme-images/images_phone/plants.jpg)
+### events.html
 ![events.html](/readme-images/images_phone/events.jpg)
+### gallery.html
 ![gallery.html](/readme-images/images_phone/gallery.jpg)
+### about.html
 ![about.html](/readme-images/images_phone/about.jpg)
+### booking.html
 ![booking.html](/readme-images/images_phone/join.jpg)
+### success.html
 ![success.html](/readme-images/images_phone/success.jpg)
 
 ## Tablet
 
-Minimum viewport width of 768px up to 992px
-
+- Minimum viewport width of 768px up to 992px
+### index.html
 ![index.html](/readme-images/images_tablet/index.jpg)
+### plants.html
 ![plants.html](/readme-images/images_tablet/plants.jpg)
+### events.html
 ![events.html](/readme-images/images_tablet/events.jpg)
+### gallery.html
 ![gallery.html](/readme-images/images_tablet/gallery.jpg)
+### about.html
 ![about.html](/readme-images/images_tablet/about.jpg)
+### booking.html
 ![booking.html](/readme-images/images_tablet/join.jpg)
+### success.html
 ![success.html](/readme-images/images_tablet/success.jpg)
 
 
 ## Desktop
 
-Viewport width of 992px or greater
-
+- Viewport width of 992px or greater
+### index.html
 ![index.html](/readme-images/images_desktop/index.jpg)
+### plants.html
 ![plants.html](/readme-images/images_desktop/plants.jpg)
+### events.html
 ![events.html](/readme-images/images_desktop/events.jpg)
+### gallery.html
 ![gallery.html](/readme-images/images_desktop/gallery.jpg)
+### about.html
 ![about.html](/readme-images/images_desktop/about.jpg)
+### booking.html
 ![booking.html](/readme-images/images_desktop/join.jpg)
+### success.html
 ![success.html](/readme-images/images_desktop/success.jpg)
 
 ## Colour Pallet
