@@ -140,6 +140,14 @@ h3 {
   color: white;
 }
 
+/* Buttons on carousel styling */
+.custom-arrow {
+  font-size: 3.5rem;
+
+  /* White arrow */
+  color: #ffffff;
+  }
+
 /* Styling for the Subcription page to keep secondary colour on when active */
 .custom-button-filled.active-page {
   background-color: var(--secondary-color);
@@ -147,7 +155,7 @@ h3 {
   border: none;
 }
 
-/* Styled button with website theme with edges and curser pointer */
+/* Styled button with website theme with edges and curser pointer that scale between screen sizes*/
 .custom-button-card {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;

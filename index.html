@@ -83,17 +83,16 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
 
   <!-- Main section with carousel -->
   <main id="header" class="container section">
-
     <div class="row">
       <div class="col-12 col-xl-6 text-center text-xl-start">
         <h1 class="display-3 mt-5 text-center">Roots and Shoots</h1>
         <p class="lead display-6 custom-paragraph text-center">Your next adventure is waiting!</p>
-        <p class="lead display-7 my-4 custom-paragraph text-start">Roots and Shoots is a fun, hands-on gardening
-          community for curious kids, creative teens, and green-thumbed families. Whether you are planting your first
-          seed or planning a backyard veggie patch, you will find plenty of tips, seasonal ideas, and creative projects
-          to help your garden grow. From sprouting seedlings on a windowsill to crafting with nature, every season
-          offers new ways to explore and learn through gardening.
-          Join in on seed swaps, garden days, and nature-themed events.</p>
+        <p class="lead display-7 my-4 custom-paragraph text-center">Roots and Shoots is a fun, hands-on gardening
+          community for curious kids, creative teens, and green-thumbed families. Whether you're planting your first
+          seed or planning a backyard veggie patch, you'll find plenty of tips, seasonal ideas, and creative projects to
+          help your garden grow. From sprouting seedlings on a windowsill to crafting with nature, every season brings
+          new ways to explore and learn through gardening. Join in on seed swaps, garden days, and nature-themed events
+          that everyone can enjoy.</p>
         <p class="lead display-7 my-4 custom-paragraph text-center">Let’s grow something amazing together!</p>
       </div>
       <div class="col-12 col-xl-6 mt-5 pt-4">
@@ -118,12 +117,13 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
             data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="custom-arrow" aria-hidden="true">&#9664;</span> <!-- Left arrow -->
             <span class="visually-hidden">Previous</span>
           </button>
+          
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
             data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="custom-arrow" aria-hidden="true">&#9654;</span> <!-- Right arrow -->
             <span class="visually-hidden">Next</span>
           </button>
         </div>
@@ -131,7 +131,8 @@ Footer stays at the bottom even if content is short, min 100% vertical height. -
     </div>
 
   </main>
-
+  <!-- &#9654; is a Unicode for right-pointing -->
+  <!-- &#9664; is a Unicode left-pointing triangle -->
   <!-- Footer / contact section -->
 
   <!-- mt-auto added to push footer to the bottom of the page -->

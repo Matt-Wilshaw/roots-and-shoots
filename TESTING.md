@@ -209,10 +209,17 @@ Added the following code to stop the shift of the Modal
 
 - Custom button class added.
 
+8. Arrows on index.html are hard to read
+
+![Arrows on index.html are hard to read](/testing-images/arrows_visability.jpg)
+
+- Added uniciode custom arrows and targetted the arrows with a custom class to make them more visable in white.
+- 
+![Arrows on index.html are easier to read](/testing-images/arrows_visability_resolved.jpg)
 
 **Defects Unresolved**
 
-subscribe.html
+1. subscribe.html
 - You are able to put an unrealistic DOB into the field, this is outside of the scope of this project so it wont be resolved.
 
 subscribe.html
@@ -221,6 +228,10 @@ subscribe.html
 
 ![Back to Home button was styled incorrectly on success.html](/testing-images/number_length.jpg)
 
+2. gallery.html
+- The default arrows were retained, as modifying their style proved complex due to library constraints and embedded SVGs. Further refinements may be addressed in future updates.
+
+![Lightbox arrows example of poor visibility](/testing-images/arrows_visability_lightbox.jpg)
 
 # User Acceptance Stories – Roots and Shoots Website
 
