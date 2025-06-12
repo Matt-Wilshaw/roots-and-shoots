@@ -217,6 +217,12 @@ Added the following code to stop the shift of the Modal
 - 
 ![Arrows on index.html are easier to read](/testing-images/arrows_visability_resolved.jpg)
 
+1. If an incorrect URL is inputted you get a default 404 from GitHub, that is not the same theme as Roots and Shoots. 
+
+- Added a custom 404 page to site.
+
+![custom 404 page](/testing-images/404_error.jpg)
+
 **Defects Unresolved**
 
 1. subscribe.html
