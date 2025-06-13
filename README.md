@@ -9,7 +9,7 @@ Please find the live demo link here.
 
 ![Roots and Shoots](/readme-images/site_preview.gif)
 
-Please also find an extensive testing document for Root and Shoots below
+Please also find an extensive testing document for Root and Shoots below.
 
 ### [TESTING.md](/TESTING.md)
 
@@ -82,9 +82,9 @@ Designed using Jesse James Garrett’s *Five Planes of User Experience*, the sit
 
 **Purpose:**
 - To inspire love of nature, plants, and sustainability.
-- To provide families and young learners with accessible gardening tips and planning tools.
+- To provide families and young learners with accessible gardening tips and planning. tools.
 - To foster creativity and responsibility through engaging plant-care activities.
-- The basics on plant care, watering, and seed planting
+- The basics on plant care, watering, and seed planting.
 
 ---
 
@@ -125,9 +125,9 @@ Designed using Jesse James Garrett’s *Five Planes of User Experience*, the sit
 - HTML to reinforce the semantics, meaning of the information on the site.
 
 **UI Elements:**
-- Plant info cards
-- Step indicators for tasks (e.g., “Plant,” “Water,” “Observe”)
-- Flatpickr calendar for selecting dates to plant or check in
+- Plant info cards.
+- Step indicators for tasks (e.g., “Plant,” “Water,” “Observe”).
+- Flatpickr calendar for selecting dates to plant or check in.
 
 **Typography:**
 
@@ -203,7 +203,7 @@ Wireframes are visual blueprints used in the early stages of web design to outli
 ## Colour Pallet
 
 This is an example of the range of colours that will be considered for the theme of the website.
-Neutral  colours that are relatable to nature
+- Neutral  colours that are relatable to nature.
 
 ![Colour pallet theme of the website](/readme-images/picsart%20colour%20picker.gif)
 
@@ -262,32 +262,32 @@ Certain software tools for web development may need to be changed or replaced du
 ## Code
 
 [HTML 5](https://www.w3schools.com/html/)
-- HTML for the semantic element of the website
+- HTML for the semantic element of the website.
 
 [CSS 3](https://www.w3schools.com/css/)
-- CSS for styling the website
+- CSS for styling the website.
   
 [FlatPickR](https://flatpickr.js.org/)
-- For use with the DatePicker on the site.
+- For use with the DatePicker on the site for the subscribe form.
 
 [Font Awesome](https://fontawesome.com/)
-- Icons that are used for the website.
+- Icons that are used for the website, social media buttons.
 
 [BootStrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-- Defined Libraries for a responsive site.
+- Defined Libraries for a responsive site, cards, containers.
 
 [Lightbox](https://trvswgnr.github.io/bs5-lightbox/#installation)
-- Gallery viewer for gallery.html
+- Gallery viewer for gallery.html, providing a responsive interactive feel.
 
 ## Text
 
 [Google](https://fonts.google.com/)
-- Google fonts for a customised look 
+- Google fonts for a customised look of fonts.
 
 ## Media
 
 **Google Maps**
-- Interactive Map
+- Interactive Map for the events.html
 
 **Microsoft Windows (11 Home edition(ver 10.0.26100))**
 - Operation system 
@@ -298,37 +298,37 @@ Certain software tools for web development may need to be changed or replaced du
 - Beautify
 
 **Google Chrome (Version 131.0.6778.265)**
-- Web browser
+- Web browser to view the site.
 
 **Git (Version 2.49.)**
-- Track changes, manage repository and host website
+- Track changes, manage repository and host website.
 
 **GIMP (version 3.0)**
-- Photo editing software
+- Photo editing software used for the logo and resizing images.
 
 **Wave**
-- Google Chrome extension - Accessibility Evaluation tool
+- Google Chrome extension - Accessibility Evaluation tool.
 
 [WebAim](https://webaim.org/)
-- Contrast Checker for the website
+- Contrast Checker for the website.
 
 **Snipping Tool on Windows**
 - Snipping images out to use in this project when needed.
 
 [W3C](https://validator.w3.org/)
-- HTML validation
+- HTML validation testing.
 
 [W3C Jigsaw](https://jigsaw.w3.org/css-validator/)
-- CSS validation
+- CSS validation testing.
 
 **Balsamiq**
-- Wireframe design
+- Wireframe design to draw the initial design of the website.
 
 [Picsart](https://tools.picsart.com/color/palette-generator/)
 - Colour palette hex generator
 
-[Am I Responsive](/https://amiresponsive.co.uk/)
-- website testing for different devices
+[Am I Responsive](https://amiresponsive.co.uk/)
+- Website testing for different devices.
 
 # Deployment
 
@@ -352,22 +352,22 @@ Make sure you have the following installed:
 
 git clone https://github.com/your-username/your-repo-name.git
 
-- Then navigate into the project directory: cd your-repo-name
+- Then navigate into the project directory: cd your-repo-name.
 
-Replace your-username and your-repo-name with your actual GitHub username and repository name.
+- Replace your-username and your-repo-name with your actual GitHub username and repository name.
 
 #### 2. Open the Project in VS Code
 
-use a new terminal and enter code .
+- use a new terminal and enter code .
 
-If code . doesn’t work, open the folder manually in VS Code.
+- If code . doesn’t work, open the folder manually in VS Code.
 
-** For Static HTML/CSS/JS Projects **
+- For Static HTML/CSS/JS Projects 
 You can open index.html directly in a browser or use Live Server:
 
-Right-click index.html → Open with Live Server
+- Right-click index.html → Open with Live Server
 
-Or click the "Go Live" button in the bottom-right corner of VS Code if you have live server installed.
+- Or click the "Go Live" button in the bottom-right corner of VS Code if you have live server installed.
 
 #### 3. Open live site hosted on GitHub
 
