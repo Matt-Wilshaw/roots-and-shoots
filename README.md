@@ -1,7 +1,7 @@
 
 # Roots and Shoots – Garden Website 🪴
 
-**Roots and Shoots**, a responsive, garden-themed website built with **HTML**, **CSS**, **JavaScript**, **Bootstrap**, and **Flatpickr**. This site provides inspiration, education, and planning tools for budding gardeners of all ages, especially children, teens, and family learners.
+**Roots and Shoots**, a responsive, 7 page, garden-themed website built with **HTML**, **CSS**, **JavaScript**, **Bootstrap**, and **Flatpickr**. This site provides inspiration, education, and planning tools for budding gardeners of all ages, especially children, teens, and family learners.
 
 Please find the live demo link here.
 
@@ -28,6 +28,8 @@ Designed using Jesse James Garrett’s *Five Planes of User Experience*, the sit
   - [Scope](#scope)
   - [Structure](#structure)
   - [Skeleton](#skeleton)
+- [Sitemap](#sitemap)
+  - [Overview of Roots and Shoots](#overview-of-roots-and-shoots)
 - [Wireframes and design](#wireframes-and-design)
   - [Phone](#phone)
     - [index.html](#indexhtml)
@@ -159,6 +161,12 @@ While your primary font can be eye-catching and unique, your secondary font shou
 **Primary Font: Lora**
 -Use for: Paragraphs, guides, educational text.
 - fallback, serif.
+
+# Sitemap
+
+## Overview of Roots and Shoots
+
+![Sitemap of Roots and Shoots](/readme-images/site_map.jpg)
 
 # Wireframes and design
 
