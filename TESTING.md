@@ -174,11 +174,11 @@ Essential testing process to make sure that the website preforms well across mul
 
 ![Subscription testing image](/testing-images/subscription_testing.jpg)
 
-3. Burger menu subscibe button is too wide on smaller screens.
+3. Burger menu subscribe button is too wide on smaller screens.
 
-![Burger menu subscibe button too wide](/testing-images/navBar_changes.jpg)
+![Burger menu subscribe button too wide](/testing-images/navBar_changes.jpg)
 
--  Added the following -nav-spaced ms-auto- to the navBar class to allign it right when burger menu is expanded. Also removed redundant ms-lg-3. Made changes to all pages.
+-  Added the following -nav-spaced ms-auto- to the navBar class to align it right when burger menu is expanded. Also removed redundant ms-lg-3. Made changes to all pages.
   
 ![navBar code changes](/testing-images/navBar_code_changes.jpg)
 
@@ -207,13 +207,13 @@ Added the following code to stop the shift of the Modal
 
 ![Back to Home button was styled incorrectly on success.html](/testing-images/incorrect_btn_styling.jpg)
 
-- Custom button class added to Back to Home button that was used for the Subscribe buton.
+- Custom button class added to Back to Home button that was used for the Subscribe button.
 
 8. Arrows on index.html are hard to read
 
 ![Arrows on index.html are hard to read](/testing-images/arrows_visability.jpg)
 
-- Added uniciode custom arrows and targetted the arrows with a custom class to make them more visable in white.
+- Added Unicode custom arrows and targeted the arrows with a custom class to make them more visible in white.
 - 
 ![Arrows on index.html are easier to read](/testing-images/arrows_visability_resolved.jpg)
 
@@ -361,7 +361,7 @@ As a first-time visitor, I want the site to look visually appealing and match th
 
 **Acceptance Criteria:**  
 - Given I view any page  
-- Then I should see consistent use of colors, fonts, and the Roots and Shoots logo
+- Then I should see consistent use of colours, fonts, and the Roots and Shoots logo
 
 **Tasks:**  
 - [Done] Apply consistent branding styles across all pages  
