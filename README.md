@@ -166,6 +166,8 @@ While your primary font can be eye-catching and unique, your secondary font shou
 
 ## Overview of Roots and Shoots
 
+A sitemap is a file that lists all the important pages on your website. It helps search engines like Google crawl and index your site more efficiently.
+
 ![Sitemap of Roots and Shoots](/readme-images/site_map.jpg)
 
 # Wireframes and design
