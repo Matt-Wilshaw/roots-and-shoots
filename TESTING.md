@@ -24,6 +24,8 @@ This document is also linked to a README.md on project specifics and other techn
 - [Bowser Compatibility](#bowser-compatibility)
 - [Device Compatibility](#device-compatibility)
 - [Bugs and know issues in development](#bugs-and-know-issues-in-development)
+  - [Defects Fixed](#defects-fixed)
+  - [Defects Unresolved](#defects-unresolved)
 - [User Acceptance Stories – Roots and Shoots Website](#user-acceptance-stories--roots-and-shoots-website)
   - [1. Subscribe to Newsletter](#1-subscribe-to-newsletter)
   - [2. Responsive Navigation](#2-responsive-navigation)
@@ -154,11 +156,13 @@ Essential testing process to make sure that the website preforms well across mul
 
 # Bugs and know issues in development 
 
-**Defects Fixed**
+## Defects Fixed
 
 1. Subscribe.html
 - Output of submitted form is YYYY-MM-DD, desired output is DD-MM-YYYY
 - dateFormat: "d-m-Y", //Changed dateFormat to reflect UK format
+
+---
 
 2. Subscribe.html
 - Able to submit a form without inputting a DOB in the required field.
@@ -174,6 +178,8 @@ Essential testing process to make sure that the website preforms well across mul
 
 ![Subscription testing image](/testing-images/subscription_testing.jpg)
 
+---
+
 3. Burger menu subscribe button is too wide on smaller screens.
 
 ![Burger menu subscribe button too wide](/testing-images/navBar_changes.jpg)
@@ -182,6 +188,8 @@ Essential testing process to make sure that the website preforms well across mul
   
 ![navBar code changes](/testing-images/navBar_code_changes.jpg)
 
+---
+
 4. Nested Google maps are not responsive on smaller screens.
 
 ![Nested Google maps are not responsive on smaller screens](/testing-images/google_maps_responsive.jpg)
@@ -189,11 +197,15 @@ Essential testing process to make sure that the website preforms well across mul
 - Added h-100 d-flex flex-column with flex-grow-1 on the paragraph to make the text fill out the available space. 
 - Also added map-responsive class with custom styling.
 
+---
+
 5. Plants text area is different heights on different screens.
 
 ![Plants text area is different heights on different screens.](/testing-images/plants_scaling_issue.jpg)
 
 ![Plants text area is different heights on different screens resolution.](/testing-images/plants_scaling_resolved.jpg)
+
+---
 
 6. Modal shift page left when clicking on an image.
 
@@ -203,27 +215,33 @@ Added the following code to stop the shift of the Modal
 
 ![Modal shift page left when clicking on an image.](/testing-images/modal_issue_resolved.jpg)
 
+---
+
 7. Back to Home button was styled incorrectly on success.html
 
 ![Back to Home button was styled incorrectly on success.html](/testing-images/incorrect_btn_styling.jpg)
 
 - Custom button class added to Back to Home button that was used for the Subscribe button.
 
+---
+
 8. Arrows on index.html are hard to read
 
 ![Arrows on index.html are hard to read](/testing-images/arrows_visability.jpg)
 
 - Added Unicode custom arrows and targeted the arrows with a custom class to make them more visible in white.
-- 
+  
 ![Arrows on index.html are easier to read](/testing-images/arrows_visability_resolved.jpg)
 
-1. If an incorrect URL is inputted you get a default 404 from GitHub, that is not the same theme as Roots and Shoots. 
+---
+
+9. If an incorrect URL is inputted you get a default 404 from GitHub, that is not the same theme as Roots and Shoots. 
 
 - Added a custom 404 page to site.
 
 ![custom 404 page](/testing-images/404_error.jpg)
 
-**Defects Unresolved**
+## Defects Unresolved
 
 1. subscribe.html
 - You are able to put an unrealistic DOB into the field, this is outside of the scope of this project so it wont be resolved.
@@ -234,10 +252,14 @@ subscribe.html
 
 ![Back to Home button was styled incorrectly on success.html](/testing-images/number_length.jpg)
 
+---
+
 2. gallery.html
 - The default arrows were retained, as modifying their style proved complex due to library constraints and embedded SVGs. Further refinements may be addressed in future updates.
 
 ![Lightbox arrows example of poor visibility](/testing-images/arrows_visability_lightbox.jpg)
+
+---
 
 # User Acceptance Stories – Roots and Shoots Website
 
@@ -369,6 +391,8 @@ As a first-time visitor, I want the site to look visually appealing and match th
 - [Done] Ensure logo is displayed and scaled properly  
 - [Done] Check colours contrast for accessibility  
 - [Done] Validate font consistency and layout spacing
+
+---
 
 # Further testing
 
