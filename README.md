@@ -31,28 +31,47 @@ Designed using Jesse James Garrett’s *Five Planes of User Experience*, the sit
 - [Wireframes and design](#wireframes-and-design)
   - [Phone](#phone)
     - [index.html](#indexhtml)
+  - [](#)
     - [plants.html](#plantshtml)
+  - [](#-1)
     - [events.html](#eventshtml)
+  - [](#-2)
     - [gallery.html](#galleryhtml)
+  - [](#-3)
     - [about.html](#abouthtml)
+  - [](#-4)
     - [booking.html](#bookinghtml)
+  - [](#-5)
     - [success.html](#successhtml)
   - [Tablet](#tablet)
     - [index.html](#indexhtml-1)
+  - [](#-6)
     - [plants.html](#plantshtml-1)
+  - [](#-7)
     - [events.html](#eventshtml-1)
+  - [](#-8)
     - [gallery.html](#galleryhtml-1)
+  - [](#-9)
     - [about.html](#abouthtml-1)
+  - [](#-10)
     - [booking.html](#bookinghtml-1)
+  - [](#-11)
     - [success.html](#successhtml-1)
   - [Desktop](#desktop)
     - [index.html](#indexhtml-2)
+  - [](#-12)
     - [plants.html](#plantshtml-2)
+  - [](#-13)
     - [events.html](#eventshtml-2)
+  - [](#-14)
     - [gallery.html](#galleryhtml-2)
+  - [](#-15)
     - [about.html](#abouthtml-2)
+  - [](#-16)
     - [booking.html](#bookinghtml-2)
+  - [](#-17)
     - [success.html](#successhtml-2)
+  - [](#-18)
   - [Colour Pallet](#colour-pallet)
   - [Surface](#surface)
 - [Accessibility](#accessibility)
@@ -150,16 +169,22 @@ Wireframes are visual blueprints used in the early stages of web design to outli
 - 576px up to 768px screen size
 ### index.html
 ![index.html](/readme-images/images_phone/index.jpg)
+---
 ### plants.html
 ![plants.html](/readme-images/images_phone/plants.jpg)
+---
 ### events.html
 ![events.html](/readme-images/images_phone/events.jpg)
+---
 ### gallery.html
 ![gallery.html](/readme-images/images_phone/gallery.jpg)
+---
 ### about.html
 ![about.html](/readme-images/images_phone/about.jpg)
+---
 ### booking.html
 ![booking.html](/readme-images/images_phone/join.jpg)
+---
 ### success.html
 ![success.html](/readme-images/images_phone/success.jpg)
 
@@ -168,37 +193,49 @@ Wireframes are visual blueprints used in the early stages of web design to outli
 - Minimum viewport width of 768px up to 992px
 ### index.html
 ![index.html](/readme-images/images_tablet/index.jpg)
+---
 ### plants.html
 ![plants.html](/readme-images/images_tablet/plants.jpg)
+---
 ### events.html
 ![events.html](/readme-images/images_tablet/events.jpg)
+---
 ### gallery.html
 ![gallery.html](/readme-images/images_tablet/gallery.jpg)
+---
 ### about.html
 ![about.html](/readme-images/images_tablet/about.jpg)
+---
 ### booking.html
 ![booking.html](/readme-images/images_tablet/join.jpg)
+---
 ### success.html
 ![success.html](/readme-images/images_tablet/success.jpg)
-
 
 ## Desktop
 
 - Viewport width of 992px or greater
 ### index.html
 ![index.html](/readme-images/images_desktop/index.jpg)
+---
 ### plants.html
 ![plants.html](/readme-images/images_desktop/plants.jpg)
+---
 ### events.html
 ![events.html](/readme-images/images_desktop/events.jpg)
+---
 ### gallery.html
 ![gallery.html](/readme-images/images_desktop/gallery.jpg)
+---
 ### about.html
 ![about.html](/readme-images/images_desktop/about.jpg)
+---
 ### booking.html
 ![booking.html](/readme-images/images_desktop/join.jpg)
+---
 ### success.html
 ![success.html](/readme-images/images_desktop/success.jpg)
+---
 
 ## Colour Pallet
 

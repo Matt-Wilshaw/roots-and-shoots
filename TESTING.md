@@ -247,6 +247,8 @@ Added the following code to stop the shift of the Modal
 
 ![custom 404 page](/testing-images/404_error.jpg)
 
+---
+
 ## Defects Unresolved
 
 1. subscribe.html
