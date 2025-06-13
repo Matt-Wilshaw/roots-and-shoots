@@ -21,7 +21,7 @@ This document is also linked to a README.md on project specifics and other techn
 - [Lighthouse](#lighthouse)
 - [autoprefixer for other browsers](#autoprefixer-for-other-browsers)
 - [Screen Reader](#screen-reader)
-- [Bowser Compatibility](#bowser-compatibility)
+- [Browser Compatibility](#browser-compatibility)
 - [Device Compatibility](#device-compatibility)
 - [Bugs and know issues in development](#bugs-and-know-issues-in-development)
   - [Defects Fixed](#defects-fixed)
@@ -131,13 +131,19 @@ Test results are all green, no action required.
 
 # autoprefixer for other browsers
 
-style.css amended according to autoprefixer
+Autoprefixer is a tool that automatically adds vendor prefixes to your CSS, ensuring your styles work consistently across different browsers
+
+- style.css amended according to autoprefixer
 
 # Screen Reader
 
-Tested using Windows Narrator, no issues found.
+A screen reader is assistive software on Windows that reads aloud the text displayed on a screen, helping people who are blind or visually impaired to use computers.
 
-# Bowser Compatibility
+- Tested using Windows Narrator, no issues found.
+
+# Browser Compatibility
+
+Browser compatibility refers to how well a website or web app works across different browsers (like Chrome, Firefox, Safari, Edge) and versions of those browsers.
 
 ![powerMapper](/testing-images/powerMapper.jpg)
 
@@ -148,7 +154,7 @@ Tested using Windows Narrator, no issues found.
 
 # Device Compatibility
 
-Essential testing process to make sure that the website preforms well across multiple device types.
+Essential testing process to make sure that the website preforms well across multiple device types and screen sizes.
 
 ![Am I Responsive](/testing-images/amiresponsive.jpg)
 - Testing cross platform for usability, no issues found.
